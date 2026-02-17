@@ -44,3 +44,43 @@ id,name,product_type,description
 43,Suporte para Notebook,Acessórios,Suporte ergonômico ajustável
 44,Livro Algoritmos,Livro,Introdução a algoritmos e lógica de programação
 45,Fonte ATX 600W,Eletrônico,Fonte de alimentação 600W certificada
+46,Mouse USB,Eletrônico,Mouse USB com fio e alta precisão
+47,Teclado Mecânico,Eletrônico,Teclado mecânico com switches azuis
+48,Monitor 24 Polegadas,Eletrônico,Monitor Full HD para trabalho e jogos
+49,Notebook i5,Eletrônico,Notebook com processador Intel i5 e SSD
+50,Fone de Ouvido Bluetooth,Eletrônico,Fone sem fio com cancelamento de ruído
+51,Livro Python,Livro,Aprenda Python do básico ao avançado
+52,Livro Django,Livro,Desenvolvimento web com Django
+53,Livro Clean Code,Livro,Boas práticas de programação
+54,Caderno Universitário,Papelaria,Caderno com 200 folhas
+55,Caneta Azul,Papelaria,Caneta esferográfica azul
+56,Mochila para Notebook,Acessórios,"Mochila resistente para notebook até 15"""
+57,Cabo HDMI,Acessórios,Cabo HDMI 2.0 de alta velocidade
+58,HD Externo 1TB,Eletrônico,Armazenamento externo portátil de 1TB
+59,Pendrive 64GB,Eletrônico,Pendrive USB 3.0 de 64GB
+60,Impressora Multifuncional,Eletrônico,Impressora com scanner e copiadora
+61,Mousepad Gamer,Acessórios,Mousepad grande com base antiderrapante
+62,Webcam Full HD,Eletrônico,Webcam 1080p para videoconferências
+63,Suporte para Notebook,Acessórios,Suporte ergonômico ajustável
+64,Livro Algoritmos,Livro,Introdução a algoritmos e lógica de programação
+65,Fonte ATX 600W,Eletrônico,Fonte de alimentação 600W certificada
+66,Mouse USB,Eletrônico,Mouse USB com fio e alta precisão
+67,Teclado Mecânico,Eletrônico,Teclado mecânico com switches azuis
+68,Monitor 24 Polegadas,Eletrônico,Monitor Full HD para trabalho e jogos
+69,Notebook i5,Eletrônico,Notebook com processador Intel i5 e SSD
+70,Fone de Ouvido Bluetooth,Eletrônico,Fone sem fio com cancelamento de ruído
+71,Livro Python,Livro,Aprenda Python do básico ao avançado
+72,Livro Django,Livro,Desenvolvimento web com Django
+73,Livro Clean Code,Livro,Boas práticas de programação
+74,Caderno Universitário,Papelaria,Caderno com 200 folhas
+75,Caneta Azul,Papelaria,Caneta esferográfica azul
+76,Mochila para Notebook,Acessórios,"Mochila resistente para notebook até 15"""
+77,Cabo HDMI,Acessórios,Cabo HDMI 2.0 de alta velocidade
+78,HD Externo 1TB,Eletrônico,Armazenamento externo portátil de 1TB
+79,Pendrive 64GB,Eletrônico,Pendrive USB 3.0 de 64GB
+80,Impressora Multifuncional,Eletrônico,Impressora com scanner e copiadora
+81,Mousepad Gamer,Acessórios,Mousepad grande com base antiderrapante
+82,Webcam Full HD,Eletrônico,Webcam 1080p para videoconferências
+83,Suporte para Notebook,Acessórios,Suporte ergonômico ajustável
+84,Livro Algoritmos,Livro,Introdução a algoritmos e lógica de programação
+85,Fonte ATX 600W,Eletrônico,Fonte de alimentação 600W certificada

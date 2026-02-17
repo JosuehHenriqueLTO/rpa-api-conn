@@ -1,0 +1,28 @@
+services:
+  backend:
+    build: ./backend
+    container_name: django_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/db.sqlite3:/app/db.sqlite3
+    env_file:
+      - .env
+    environment:
+      DEBUG: "false"
+    healthcheck:
+      test: ["CMD", "python", "manage.py", "check"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  rpa:
+    build: ./rpa
+    container_name: rpa_runner
+    volumes:
+      - ./rpa/data:/rpa/data
+    env_file:
+      - .env
+    depends_on:
+      backend:
+        condition: service_healthy

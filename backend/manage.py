@@ -2,7 +2,14 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import requests
 
+# resp = requests.post(
+#     "http://localhost:8000/api/token/",
+#     json={"username": "rpa_bot", "password": "sparkles123"},
+# )
+
+# resp.status_code, resp.text
 
 def main():
     """Run administrative tasks."""
@@ -16,6 +23,7 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
+    
 
 
 if __name__ == '__main__':
