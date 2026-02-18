@@ -1,86 +1,1002 @@
-id,name,product_type,description
-1,Produto A,Eletrônico,Produto de teste
-2,Produto B,Eletrônico,Desc B
-3,Produto C,Livro,Desc C
-4,Mouse,Eletrônico,Mouse USB
-5,Livro Python,Livro,Aprenda Python
-6,Mouse USB,Eletrônico,Mouse USB com fio e alta precisão
-7,Teclado Mecânico,Eletrônico,Teclado mecânico com switches azuis
-8,Monitor 24 Polegadas,Eletrônico,Monitor Full HD para trabalho e jogos
-9,Notebook i5,Eletrônico,Notebook com processador Intel i5 e SSD
-10,Fone de Ouvido Bluetooth,Eletrônico,Fone sem fio com cancelamento de ruído
-11,Livro Python,Livro,Aprenda Python do básico ao avançado
-12,Livro Django,Livro,Desenvolvimento web com Django
-13,Livro Clean Code,Livro,Boas práticas de programação
-14,Caderno Universitário,Papelaria,Caderno com 200 folhas
-15,Caneta Azul,Papelaria,Caneta esferográfica azul
-16,Mochila para Notebook,Acessórios,"Mochila resistente para notebook até 15"""
-17,Cabo HDMI,Acessórios,Cabo HDMI 2.0 de alta velocidade
-18,HD Externo 1TB,Eletrônico,Armazenamento externo portátil de 1TB
-19,Pendrive 64GB,Eletrônico,Pendrive USB 3.0 de 64GB
-20,Impressora Multifuncional,Eletrônico,Impressora com scanner e copiadora
-21,Mousepad Gamer,Acessórios,Mousepad grande com base antiderrapante
-22,Webcam Full HD,Eletrônico,Webcam 1080p para videoconferências
-23,Suporte para Notebook,Acessórios,Suporte ergonômico ajustável
-24,Livro Algoritmos,Livro,Introdução a algoritmos e lógica de programação
-25,Fonte ATX 600W,Eletrônico,Fonte de alimentação 600W certificada
-26,Mouse USB,Eletrônico,Mouse USB com fio e alta precisão
-27,Teclado Mecânico,Eletrônico,Teclado mecânico com switches azuis
-28,Monitor 24 Polegadas,Eletrônico,Monitor Full HD para trabalho e jogos
-29,Notebook i5,Eletrônico,Notebook com processador Intel i5 e SSD
-30,Fone de Ouvido Bluetooth,Eletrônico,Fone sem fio com cancelamento de ruído
-31,Livro Python,Livro,Aprenda Python do básico ao avançado
-32,Livro Django,Livro,Desenvolvimento web com Django
-33,Livro Clean Code,Livro,Boas práticas de programação
-34,Caderno Universitário,Papelaria,Caderno com 200 folhas
-35,Caneta Azul,Papelaria,Caneta esferográfica azul
-36,Mochila para Notebook,Acessórios,"Mochila resistente para notebook até 15"""
-37,Cabo HDMI,Acessórios,Cabo HDMI 2.0 de alta velocidade
-38,HD Externo 1TB,Eletrônico,Armazenamento externo portátil de 1TB
-39,Pendrive 64GB,Eletrônico,Pendrive USB 3.0 de 64GB
-40,Impressora Multifuncional,Eletrônico,Impressora com scanner e copiadora
-41,Mousepad Gamer,Acessórios,Mousepad grande com base antiderrapante
-42,Webcam Full HD,Eletrônico,Webcam 1080p para videoconferências
-43,Suporte para Notebook,Acessórios,Suporte ergonômico ajustável
-44,Livro Algoritmos,Livro,Introdução a algoritmos e lógica de programação
-45,Fonte ATX 600W,Eletrônico,Fonte de alimentação 600W certificada
-46,Mouse USB,Eletrônico,Mouse USB com fio e alta precisão
-47,Teclado Mecânico,Eletrônico,Teclado mecânico com switches azuis
-48,Monitor 24 Polegadas,Eletrônico,Monitor Full HD para trabalho e jogos
-49,Notebook i5,Eletrônico,Notebook com processador Intel i5 e SSD
-50,Fone de Ouvido Bluetooth,Eletrônico,Fone sem fio com cancelamento de ruído
-51,Livro Python,Livro,Aprenda Python do básico ao avançado
-52,Livro Django,Livro,Desenvolvimento web com Django
-53,Livro Clean Code,Livro,Boas práticas de programação
-54,Caderno Universitário,Papelaria,Caderno com 200 folhas
-55,Caneta Azul,Papelaria,Caneta esferográfica azul
-56,Mochila para Notebook,Acessórios,"Mochila resistente para notebook até 15"""
-57,Cabo HDMI,Acessórios,Cabo HDMI 2.0 de alta velocidade
-58,HD Externo 1TB,Eletrônico,Armazenamento externo portátil de 1TB
-59,Pendrive 64GB,Eletrônico,Pendrive USB 3.0 de 64GB
-60,Impressora Multifuncional,Eletrônico,Impressora com scanner e copiadora
-61,Mousepad Gamer,Acessórios,Mousepad grande com base antiderrapante
-62,Webcam Full HD,Eletrônico,Webcam 1080p para videoconferências
-63,Suporte para Notebook,Acessórios,Suporte ergonômico ajustável
-64,Livro Algoritmos,Livro,Introdução a algoritmos e lógica de programação
-65,Fonte ATX 600W,Eletrônico,Fonte de alimentação 600W certificada
-66,Mouse USB,Eletrônico,Mouse USB com fio e alta precisão
-67,Teclado Mecânico,Eletrônico,Teclado mecânico com switches azuis
-68,Monitor 24 Polegadas,Eletrônico,Monitor Full HD para trabalho e jogos
-69,Notebook i5,Eletrônico,Notebook com processador Intel i5 e SSD
-70,Fone de Ouvido Bluetooth,Eletrônico,Fone sem fio com cancelamento de ruído
-71,Livro Python,Livro,Aprenda Python do básico ao avançado
-72,Livro Django,Livro,Desenvolvimento web com Django
-73,Livro Clean Code,Livro,Boas práticas de programação
-74,Caderno Universitário,Papelaria,Caderno com 200 folhas
-75,Caneta Azul,Papelaria,Caneta esferográfica azul
-76,Mochila para Notebook,Acessórios,"Mochila resistente para notebook até 15"""
-77,Cabo HDMI,Acessórios,Cabo HDMI 2.0 de alta velocidade
-78,HD Externo 1TB,Eletrônico,Armazenamento externo portátil de 1TB
-79,Pendrive 64GB,Eletrônico,Pendrive USB 3.0 de 64GB
-80,Impressora Multifuncional,Eletrônico,Impressora com scanner e copiadora
-81,Mousepad Gamer,Acessórios,Mousepad grande com base antiderrapante
-82,Webcam Full HD,Eletrônico,Webcam 1080p para videoconferências
-83,Suporte para Notebook,Acessórios,Suporte ergonômico ajustável
-84,Livro Algoritmos,Livro,Introdução a algoritmos e lógica de programação
-85,Fonte ATX 600W,Eletrônico,Fonte de alimentação 600W certificada
+id,name,product_type,description,monthly_sales
+1,Test Product,Electronics,Test,120
+2,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 1.,424
+3,Gaming Mousepad Standard,Accessories,Large mousepad with non-slip base. Standard model – batch 2.,77
+4,Django Book Premium,Book,Web development with Django. Premium model – batch 3.,344
+5,USB Flash Drive 64GB Standard,Electronics,USB 3.0 flash drive with 64GB capacity. Standard model – batch 4.,278
+6,Multifunction Printer Pro,Electronics,Printer with scanner and copier. Pro model – batch 5.,113
+7,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 6.,114
+8,Django Book Compact,Book,Web development with Django. Compact model – batch 7.,193
+9,ATX Power Supply 600W Premium,Electronics,600W certified power supply. Premium model – batch 8.,53
+10,Blue Pen Plus,Stationery,Blue ballpoint pen. Plus model – batch 9.,159
+11,24 Inch Monitor Pro,Electronics,Full HD monitor for work and gaming. Pro model – batch 10.,411
+12,External Hard Drive 1TB USB-C,Electronics,Portable 1TB external storage. USB-C model – batch 11.,232
+13,Mechanical Keyboard Plus,Electronics,Mechanical keyboard with blue switches. Plus model – batch 12.,213
+14,USB Mouse Pro,Electronics,Wired USB mouse with high precision. Pro model – batch 13.,311
+15,Algorithms Book USB-C,Book,Introduction to algorithms and programming logic. USB-C model – batch 14.,264
+16,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 15.,8
+17,Laptop Backpack Pro,Accessories,Durable backpack for up to 15-inch laptops. Pro model – batch 16.,362
+18,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 17.,19
+19,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 18.,107
+20,Django Book Advanced,Book,Web development with Django. Advanced model – batch 19.,340
+21,Bluetooth Headphones Wireless,Electronics,Wireless headphones with noise cancellation. Wireless model – batch 20.,390
+22,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 21.,379
+23,Django Book Compact,Book,Web development with Django. Compact model – batch 22.,264
+24,USB Flash Drive 64GB Standard,Electronics,USB 3.0 flash drive with 64GB capacity. Standard model – batch 23.,218
+25,Laptop i5 Standard,Electronics,Laptop with Intel i5 processor and SSD. Standard model – batch 24.,47
+26,Multifunction Printer USB-C,Electronics,Printer with scanner and copier. USB-C model – batch 25.,446
+27,Blue Pen Wireless,Stationery,Blue ballpoint pen. Wireless model – batch 26.,322
+28,Algorithms Book Wireless,Book,Introduction to algorithms and programming logic. Wireless model – batch 27.,455
+29,Python Book Pro,Book,Learn Python from beginner to advanced. Pro model – batch 28.,82
+30,Python Book USB-C,Book,Learn Python from beginner to advanced. USB-C model – batch 29.,492
+31,Laptop i5 Compact,Electronics,Laptop with Intel i5 processor and SSD. Compact model – batch 30.,137
+32,Full HD Webcam USB-C,Electronics,1080p webcam for video conferencing. USB-C model – batch 31.,307
+33,Multifunction Printer Advanced,Electronics,Printer with scanner and copier. Advanced model – batch 32.,359
+34,University Notebook Standard,Stationery,Notebook with 200 pages. Standard model – batch 33.,121
+35,Clean Code Book Compact,Book,Best practices for clean and maintainable code. Compact model – batch 34.,186
+36,University Notebook Standard,Stationery,Notebook with 200 pages. Standard model – batch 35.,296
+37,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 36.,213
+38,Multifunction Printer Wireless,Electronics,Printer with scanner and copier. Wireless model – batch 37.,413
+39,Python Book Plus,Book,Learn Python from beginner to advanced. Plus model – batch 38.,119
+40,Laptop i5 USB-C,Electronics,Laptop with Intel i5 processor and SSD. USB-C model – batch 39.,327
+41,Python Book USB-C,Book,Learn Python from beginner to advanced. USB-C model – batch 40.,118
+42,Clean Code Book Advanced,Book,Best practices for clean and maintainable code. Advanced model – batch 41.,271
+43,Multifunction Printer Wireless,Electronics,Printer with scanner and copier. Wireless model – batch 42.,254
+44,External Hard Drive 1TB Pro,Electronics,Portable 1TB external storage. Pro model – batch 43.,454
+45,24 Inch Monitor USB-C,Electronics,Full HD monitor for work and gaming. USB-C model – batch 44.,25
+46,Django Book Compact,Book,Web development with Django. Compact model – batch 45.,328
+47,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 46.,262
+48,Bluetooth Headphones Pro,Electronics,Wireless headphones with noise cancellation. Pro model – batch 47.,322
+49,Laptop Stand Plus,Accessories,Adjustable ergonomic laptop stand. Plus model – batch 48.,274
+50,Python Book Compact,Book,Learn Python from beginner to advanced. Compact model – batch 49.,317
+51,Algorithms Book Wireless,Book,Introduction to algorithms and programming logic. Wireless model – batch 50.,50
+52,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 51.,379
+53,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 52.,291
+54,Clean Code Book Advanced,Book,Best practices for clean and maintainable code. Advanced model – batch 53.,458
+55,USB Flash Drive 64GB USB-C,Electronics,USB 3.0 flash drive with 64GB capacity. USB-C model – batch 54.,271
+56,Laptop Stand Advanced,Accessories,Adjustable ergonomic laptop stand. Advanced model – batch 55.,492
+57,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 56.,310
+58,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 57.,286
+59,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 58.,109
+60,Full HD Webcam USB-C,Electronics,1080p webcam for video conferencing. USB-C model – batch 59.,454
+61,Laptop Stand Premium,Accessories,Adjustable ergonomic laptop stand. Premium model – batch 60.,368
+62,University Notebook Compact,Stationery,Notebook with 200 pages. Compact model – batch 61.,17
+63,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 62.,449
+64,24 Inch Monitor Pro,Electronics,Full HD monitor for work and gaming. Pro model – batch 63.,429
+65,Gaming Mousepad Pro,Accessories,Large mousepad with non-slip base. Pro model – batch 64.,305
+66,Algorithms Book Compact,Book,Introduction to algorithms and programming logic. Compact model – batch 65.,96
+67,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 66.,318
+68,Laptop Stand USB-C,Accessories,Adjustable ergonomic laptop stand. USB-C model – batch 67.,218
+69,Laptop Backpack Wireless,Accessories,Durable backpack for up to 15-inch laptops. Wireless model – batch 68.,226
+70,Laptop Backpack USB-C,Accessories,Durable backpack for up to 15-inch laptops. USB-C model – batch 69.,11
+71,University Notebook Compact,Stationery,Notebook with 200 pages. Compact model – batch 70.,374
+72,Python Book Advanced,Book,Learn Python from beginner to advanced. Advanced model – batch 71.,160
+73,USB Flash Drive 64GB Compact,Electronics,USB 3.0 flash drive with 64GB capacity. Compact model – batch 72.,323
+74,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 73.,88
+75,Gaming Mousepad Standard,Accessories,Large mousepad with non-slip base. Standard model – batch 74.,338
+76,External Hard Drive 1TB Advanced,Electronics,Portable 1TB external storage. Advanced model – batch 75.,79
+77,Blue Pen USB-C,Stationery,Blue ballpoint pen. USB-C model – batch 76.,234
+78,Bluetooth Headphones Advanced,Electronics,Wireless headphones with noise cancellation. Advanced model – batch 77.,283
+79,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 78.,442
+80,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 79.,253
+81,HDMI Cable Compact,Accessories,High-speed HDMI 2.0 cable. Compact model – batch 80.,252
+82,Django Book USB-C,Book,Web development with Django. USB-C model – batch 81.,421
+83,Blue Pen Pro,Stationery,Blue ballpoint pen. Pro model – batch 82.,355
+84,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 83.,122
+85,HDMI Cable Standard,Accessories,High-speed HDMI 2.0 cable. Standard model – batch 84.,140
+86,HDMI Cable Advanced,Accessories,High-speed HDMI 2.0 cable. Advanced model – batch 85.,351
+87,USB Mouse Plus,Electronics,Wired USB mouse with high precision. Plus model – batch 86.,457
+88,HDMI Cable Compact,Accessories,High-speed HDMI 2.0 cable. Compact model – batch 87.,260
+89,USB Mouse Plus,Electronics,Wired USB mouse with high precision. Plus model – batch 88.,183
+90,HDMI Cable Standard,Accessories,High-speed HDMI 2.0 cable. Standard model – batch 89.,500
+91,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 90.,131
+92,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 91.,387
+93,University Notebook Advanced,Stationery,Notebook with 200 pages. Advanced model – batch 92.,418
+94,Python Book Advanced,Book,Learn Python from beginner to advanced. Advanced model – batch 93.,67
+95,24 Inch Monitor Advanced,Electronics,Full HD monitor for work and gaming. Advanced model – batch 94.,491
+96,Gaming Mousepad USB-C,Accessories,Large mousepad with non-slip base. USB-C model – batch 95.,21
+97,Full HD Webcam Standard,Electronics,1080p webcam for video conferencing. Standard model – batch 96.,370
+98,Laptop Stand USB-C,Accessories,Adjustable ergonomic laptop stand. USB-C model – batch 97.,192
+99,Django Book Wireless,Book,Web development with Django. Wireless model – batch 98.,302
+100,Laptop Backpack USB-C,Accessories,Durable backpack for up to 15-inch laptops. USB-C model – batch 99.,257
+101,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 100.,234
+102,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 101.,45
+103,HDMI Cable Premium,Accessories,High-speed HDMI 2.0 cable. Premium model – batch 102.,267
+104,ATX Power Supply 600W Advanced,Electronics,600W certified power supply. Advanced model – batch 103.,178
+105,Laptop Backpack Standard,Accessories,Durable backpack for up to 15-inch laptops. Standard model – batch 104.,190
+106,Laptop Backpack Wireless,Accessories,Durable backpack for up to 15-inch laptops. Wireless model – batch 105.,215
+107,Python Book Standard,Book,Learn Python from beginner to advanced. Standard model – batch 106.,28
+108,University Notebook Premium,Stationery,Notebook with 200 pages. Premium model – batch 107.,320
+109,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 108.,393
+110,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 109.,190
+111,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 110.,55
+112,Algorithms Book Wireless,Book,Introduction to algorithms and programming logic. Wireless model – batch 111.,407
+113,Laptop i5 Wireless,Electronics,Laptop with Intel i5 processor and SSD. Wireless model – batch 112.,29
+114,External Hard Drive 1TB Standard,Electronics,Portable 1TB external storage. Standard model – batch 113.,49
+115,External Hard Drive 1TB Plus,Electronics,Portable 1TB external storage. Plus model – batch 114.,256
+116,ATX Power Supply 600W Pro,Electronics,600W certified power supply. Pro model – batch 115.,58
+117,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 116.,98
+118,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 117.,173
+119,Gaming Mousepad Wireless,Accessories,Large mousepad with non-slip base. Wireless model – batch 118.,339
+120,Python Book Advanced,Book,Learn Python from beginner to advanced. Advanced model – batch 119.,89
+121,Algorithms Book Premium,Book,Introduction to algorithms and programming logic. Premium model – batch 120.,101
+122,Mechanical Keyboard Pro,Electronics,Mechanical keyboard with blue switches. Pro model – batch 121.,415
+123,Laptop Backpack Pro,Accessories,Durable backpack for up to 15-inch laptops. Pro model – batch 122.,83
+124,Python Book Pro,Book,Learn Python from beginner to advanced. Pro model – batch 123.,107
+125,Gaming Mousepad Plus,Accessories,Large mousepad with non-slip base. Plus model – batch 124.,191
+126,HDMI Cable Pro,Accessories,High-speed HDMI 2.0 cable. Pro model – batch 125.,188
+127,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 126.,323
+128,Mechanical Keyboard Compact,Electronics,Mechanical keyboard with blue switches. Compact model – batch 127.,169
+129,Mechanical Keyboard Wireless,Electronics,Mechanical keyboard with blue switches. Wireless model – batch 128.,301
+130,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 129.,242
+131,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 130.,339
+132,USB Mouse Advanced,Electronics,Wired USB mouse with high precision. Advanced model – batch 131.,383
+133,HDMI Cable Compact,Accessories,High-speed HDMI 2.0 cable. Compact model – batch 132.,99
+134,USB Mouse Advanced,Electronics,Wired USB mouse with high precision. Advanced model – batch 133.,350
+135,Laptop Stand Plus,Accessories,Adjustable ergonomic laptop stand. Plus model – batch 134.,216
+136,Bluetooth Headphones USB-C,Electronics,Wireless headphones with noise cancellation. USB-C model – batch 135.,339
+137,Clean Code Book Plus,Book,Best practices for clean and maintainable code. Plus model – batch 136.,282
+138,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 137.,341
+139,Full HD Webcam Advanced,Electronics,1080p webcam for video conferencing. Advanced model – batch 138.,42
+140,External Hard Drive 1TB Premium,Electronics,Portable 1TB external storage. Premium model – batch 139.,376
+141,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 140.,422
+142,Laptop Backpack Advanced,Accessories,Durable backpack for up to 15-inch laptops. Advanced model – batch 141.,434
+143,USB Mouse USB-C,Electronics,Wired USB mouse with high precision. USB-C model – batch 142.,311
+144,Full HD Webcam Wireless,Electronics,1080p webcam for video conferencing. Wireless model – batch 143.,8
+145,Laptop Stand USB-C,Accessories,Adjustable ergonomic laptop stand. USB-C model – batch 144.,320
+146,Laptop i5 Standard,Electronics,Laptop with Intel i5 processor and SSD. Standard model – batch 145.,446
+147,Laptop i5 Wireless,Electronics,Laptop with Intel i5 processor and SSD. Wireless model – batch 146.,467
+148,Gaming Mousepad Premium,Accessories,Large mousepad with non-slip base. Premium model – batch 147.,372
+149,24 Inch Monitor Premium,Electronics,Full HD monitor for work and gaming. Premium model – batch 148.,46
+150,Clean Code Book Standard,Book,Best practices for clean and maintainable code. Standard model – batch 149.,266
+151,Laptop Backpack Plus,Accessories,Durable backpack for up to 15-inch laptops. Plus model – batch 150.,223
+152,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 151.,265
+153,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 152.,172
+154,Laptop Backpack Premium,Accessories,Durable backpack for up to 15-inch laptops. Premium model – batch 153.,49
+155,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 154.,336
+156,Mechanical Keyboard Advanced,Electronics,Mechanical keyboard with blue switches. Advanced model – batch 155.,496
+157,Full HD Webcam Advanced,Electronics,1080p webcam for video conferencing. Advanced model – batch 156.,274
+158,Django Book Compact,Book,Web development with Django. Compact model – batch 157.,260
+159,External Hard Drive 1TB Advanced,Electronics,Portable 1TB external storage. Advanced model – batch 158.,137
+160,Python Book Standard,Book,Learn Python from beginner to advanced. Standard model – batch 159.,363
+161,Laptop Backpack Advanced,Accessories,Durable backpack for up to 15-inch laptops. Advanced model – batch 160.,368
+162,USB Flash Drive 64GB Standard,Electronics,USB 3.0 flash drive with 64GB capacity. Standard model – batch 161.,465
+163,Multifunction Printer Pro,Electronics,Printer with scanner and copier. Pro model – batch 162.,26
+164,Laptop Backpack USB-C,Accessories,Durable backpack for up to 15-inch laptops. USB-C model – batch 163.,289
+165,USB Mouse USB-C,Electronics,Wired USB mouse with high precision. USB-C model – batch 164.,174
+166,Mechanical Keyboard USB-C,Electronics,Mechanical keyboard with blue switches. USB-C model – batch 165.,479
+167,Blue Pen Pro,Stationery,Blue ballpoint pen. Pro model – batch 166.,347
+168,Django Book Advanced,Book,Web development with Django. Advanced model – batch 167.,363
+169,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 168.,241
+170,External Hard Drive 1TB Compact,Electronics,Portable 1TB external storage. Compact model – batch 169.,362
+171,Algorithms Book Pro,Book,Introduction to algorithms and programming logic. Pro model – batch 170.,270
+172,Mechanical Keyboard Plus,Electronics,Mechanical keyboard with blue switches. Plus model – batch 171.,171
+173,Clean Code Book Plus,Book,Best practices for clean and maintainable code. Plus model – batch 172.,80
+174,Gaming Mousepad Advanced,Accessories,Large mousepad with non-slip base. Advanced model – batch 173.,290
+175,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 174.,271
+176,Django Book Advanced,Book,Web development with Django. Advanced model – batch 175.,476
+177,Laptop i5 Wireless,Electronics,Laptop with Intel i5 processor and SSD. Wireless model – batch 176.,259
+178,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 177.,250
+179,ATX Power Supply 600W Premium,Electronics,600W certified power supply. Premium model – batch 178.,397
+180,Laptop Backpack Pro,Accessories,Durable backpack for up to 15-inch laptops. Pro model – batch 179.,145
+181,Gaming Mousepad Wireless,Accessories,Large mousepad with non-slip base. Wireless model – batch 180.,375
+182,Multifunction Printer Pro,Electronics,Printer with scanner and copier. Pro model – batch 181.,476
+183,University Notebook Premium,Stationery,Notebook with 200 pages. Premium model – batch 182.,308
+184,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 183.,399
+185,University Notebook Plus,Stationery,Notebook with 200 pages. Plus model – batch 184.,288
+186,Laptop i5 Wireless,Electronics,Laptop with Intel i5 processor and SSD. Wireless model – batch 185.,402
+187,ATX Power Supply 600W Pro,Electronics,600W certified power supply. Pro model – batch 186.,345
+188,Mechanical Keyboard Premium,Electronics,Mechanical keyboard with blue switches. Premium model – batch 187.,467
+189,Python Book USB-C,Book,Learn Python from beginner to advanced. USB-C model – batch 188.,225
+190,Full HD Webcam Standard,Electronics,1080p webcam for video conferencing. Standard model – batch 189.,435
+191,Clean Code Book Standard,Book,Best practices for clean and maintainable code. Standard model – batch 190.,369
+192,Django Book USB-C,Book,Web development with Django. USB-C model – batch 191.,287
+193,Full HD Webcam Pro,Electronics,1080p webcam for video conferencing. Pro model – batch 192.,397
+194,External Hard Drive 1TB Advanced,Electronics,Portable 1TB external storage. Advanced model – batch 193.,336
+195,Clean Code Book Standard,Book,Best practices for clean and maintainable code. Standard model – batch 194.,234
+196,Laptop i5 Advanced,Electronics,Laptop with Intel i5 processor and SSD. Advanced model – batch 195.,225
+197,Gaming Mousepad Wireless,Accessories,Large mousepad with non-slip base. Wireless model – batch 196.,55
+198,Laptop i5 Advanced,Electronics,Laptop with Intel i5 processor and SSD. Advanced model – batch 197.,351
+199,USB Mouse Advanced,Electronics,Wired USB mouse with high precision. Advanced model – batch 198.,291
+200,Python Book Standard,Book,Learn Python from beginner to advanced. Standard model – batch 199.,462
+201,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 200.,459
+202,Python Book Wireless,Book,Learn Python from beginner to advanced. Wireless model – batch 201.,285
+203,Gaming Mousepad USB-C,Accessories,Large mousepad with non-slip base. USB-C model – batch 202.,200
+204,Blue Pen Standard,Stationery,Blue ballpoint pen. Standard model – batch 203.,90
+205,Full HD Webcam Premium,Electronics,1080p webcam for video conferencing. Premium model – batch 204.,249
+206,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 205.,388
+207,Laptop i5 Premium,Electronics,Laptop with Intel i5 processor and SSD. Premium model – batch 206.,410
+208,Django Book Pro,Book,Web development with Django. Pro model – batch 207.,249
+209,Laptop i5 Wireless,Electronics,Laptop with Intel i5 processor and SSD. Wireless model – batch 208.,206
+210,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 209.,292
+211,Full HD Webcam Advanced,Electronics,1080p webcam for video conferencing. Advanced model – batch 210.,75
+212,USB Mouse Pro,Electronics,Wired USB mouse with high precision. Pro model – batch 211.,473
+213,Full HD Webcam USB-C,Electronics,1080p webcam for video conferencing. USB-C model – batch 212.,380
+214,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 213.,463
+215,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 214.,310
+216,Laptop Backpack Premium,Accessories,Durable backpack for up to 15-inch laptops. Premium model – batch 215.,173
+217,Python Book Standard,Book,Learn Python from beginner to advanced. Standard model – batch 216.,45
+218,Laptop i5 Plus,Electronics,Laptop with Intel i5 processor and SSD. Plus model – batch 217.,146
+219,Laptop i5 Premium,Electronics,Laptop with Intel i5 processor and SSD. Premium model – batch 218.,498
+220,Laptop i5 Premium,Electronics,Laptop with Intel i5 processor and SSD. Premium model – batch 219.,30
+221,Full HD Webcam Plus,Electronics,1080p webcam for video conferencing. Plus model – batch 220.,112
+222,Blue Pen USB-C,Stationery,Blue ballpoint pen. USB-C model – batch 221.,482
+223,Full HD Webcam Wireless,Electronics,1080p webcam for video conferencing. Wireless model – batch 222.,431
+224,Multifunction Printer USB-C,Electronics,Printer with scanner and copier. USB-C model – batch 223.,299
+225,Blue Pen Compact,Stationery,Blue ballpoint pen. Compact model – batch 224.,178
+226,Full HD Webcam Premium,Electronics,1080p webcam for video conferencing. Premium model – batch 225.,339
+227,Python Book Plus,Book,Learn Python from beginner to advanced. Plus model – batch 226.,337
+228,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 227.,381
+229,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 228.,82
+230,HDMI Cable Advanced,Accessories,High-speed HDMI 2.0 cable. Advanced model – batch 229.,130
+231,Mechanical Keyboard Plus,Electronics,Mechanical keyboard with blue switches. Plus model – batch 230.,75
+232,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 231.,325
+233,Mechanical Keyboard Premium,Electronics,Mechanical keyboard with blue switches. Premium model – batch 232.,71
+234,HDMI Cable USB-C,Accessories,High-speed HDMI 2.0 cable. USB-C model – batch 233.,77
+235,Clean Code Book Pro,Book,Best practices for clean and maintainable code. Pro model – batch 234.,221
+236,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 235.,185
+237,USB Mouse Pro,Electronics,Wired USB mouse with high precision. Pro model – batch 236.,477
+238,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 237.,201
+239,Laptop Backpack Advanced,Accessories,Durable backpack for up to 15-inch laptops. Advanced model – batch 238.,464
+240,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 239.,391
+241,Laptop Backpack Plus,Accessories,Durable backpack for up to 15-inch laptops. Plus model – batch 240.,192
+242,Clean Code Book Advanced,Book,Best practices for clean and maintainable code. Advanced model – batch 241.,438
+243,ATX Power Supply 600W Pro,Electronics,600W certified power supply. Pro model – batch 242.,74
+244,24 Inch Monitor Pro,Electronics,Full HD monitor for work and gaming. Pro model – batch 243.,56
+245,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 244.,102
+246,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 245.,397
+247,Bluetooth Headphones Wireless,Electronics,Wireless headphones with noise cancellation. Wireless model – batch 246.,23
+248,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 247.,282
+249,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 248.,338
+250,Algorithms Book Wireless,Book,Introduction to algorithms and programming logic. Wireless model – batch 249.,430
+251,Multifunction Printer USB-C,Electronics,Printer with scanner and copier. USB-C model – batch 250.,433
+252,Laptop Backpack Standard,Accessories,Durable backpack for up to 15-inch laptops. Standard model – batch 251.,89
+253,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 252.,333
+254,Gaming Mousepad Advanced,Accessories,Large mousepad with non-slip base. Advanced model – batch 253.,243
+255,Laptop Stand Advanced,Accessories,Adjustable ergonomic laptop stand. Advanced model – batch 254.,379
+256,Python Book Wireless,Book,Learn Python from beginner to advanced. Wireless model – batch 255.,477
+257,Clean Code Book Compact,Book,Best practices for clean and maintainable code. Compact model – batch 256.,379
+258,24 Inch Monitor USB-C,Electronics,Full HD monitor for work and gaming. USB-C model – batch 257.,187
+259,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 258.,441
+260,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 259.,181
+261,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 260.,53
+262,Laptop i5 Standard,Electronics,Laptop with Intel i5 processor and SSD. Standard model – batch 261.,462
+263,Multifunction Printer Standard,Electronics,Printer with scanner and copier. Standard model – batch 262.,477
+264,Django Book Pro,Book,Web development with Django. Pro model – batch 263.,53
+265,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 264.,119
+266,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 265.,86
+267,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 266.,438
+268,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 267.,248
+269,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 268.,97
+270,Laptop i5 Premium,Electronics,Laptop with Intel i5 processor and SSD. Premium model – batch 269.,262
+271,Laptop i5 USB-C,Electronics,Laptop with Intel i5 processor and SSD. USB-C model – batch 270.,89
+272,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 271.,150
+273,External Hard Drive 1TB Compact,Electronics,Portable 1TB external storage. Compact model – batch 272.,283
+274,Mechanical Keyboard Compact,Electronics,Mechanical keyboard with blue switches. Compact model – batch 273.,447
+275,USB Mouse Pro,Electronics,Wired USB mouse with high precision. Pro model – batch 274.,8
+276,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 275.,225
+277,Python Book Pro,Book,Learn Python from beginner to advanced. Pro model – batch 276.,303
+278,Bluetooth Headphones Advanced,Electronics,Wireless headphones with noise cancellation. Advanced model – batch 277.,471
+279,University Notebook Premium,Stationery,Notebook with 200 pages. Premium model – batch 278.,477
+280,ATX Power Supply 600W Plus,Electronics,600W certified power supply. Plus model – batch 279.,183
+281,Laptop Stand Plus,Accessories,Adjustable ergonomic laptop stand. Plus model – batch 280.,168
+282,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 281.,425
+283,Django Book Plus,Book,Web development with Django. Plus model – batch 282.,166
+284,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 283.,355
+285,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 284.,19
+286,Python Book Wireless,Book,Learn Python from beginner to advanced. Wireless model – batch 285.,404
+287,HDMI Cable Plus,Accessories,High-speed HDMI 2.0 cable. Plus model – batch 286.,340
+288,Multifunction Printer Advanced,Electronics,Printer with scanner and copier. Advanced model – batch 287.,54
+289,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 288.,58
+290,Laptop i5 Plus,Electronics,Laptop with Intel i5 processor and SSD. Plus model – batch 289.,31
+291,24 Inch Monitor Pro,Electronics,Full HD monitor for work and gaming. Pro model – batch 290.,102
+292,USB Mouse Plus,Electronics,Wired USB mouse with high precision. Plus model – batch 291.,368
+293,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 292.,262
+294,24 Inch Monitor USB-C,Electronics,Full HD monitor for work and gaming. USB-C model – batch 293.,170
+295,USB Mouse Plus,Electronics,Wired USB mouse with high precision. Plus model – batch 294.,309
+296,Algorithms Book USB-C,Book,Introduction to algorithms and programming logic. USB-C model – batch 295.,405
+297,Mechanical Keyboard Pro,Electronics,Mechanical keyboard with blue switches. Pro model – batch 296.,408
+298,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 297.,432
+299,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 298.,139
+300,External Hard Drive 1TB Compact,Electronics,Portable 1TB external storage. Compact model – batch 299.,92
+301,Bluetooth Headphones Plus,Electronics,Wireless headphones with noise cancellation. Plus model – batch 300.,350
+302,Blue Pen Wireless,Stationery,Blue ballpoint pen. Wireless model – batch 301.,234
+303,Multifunction Printer Premium,Electronics,Printer with scanner and copier. Premium model – batch 302.,240
+304,Laptop Stand Premium,Accessories,Adjustable ergonomic laptop stand. Premium model – batch 303.,398
+305,Multifunction Printer Premium,Electronics,Printer with scanner and copier. Premium model – batch 304.,111
+306,External Hard Drive 1TB Compact,Electronics,Portable 1TB external storage. Compact model – batch 305.,381
+307,University Notebook Compact,Stationery,Notebook with 200 pages. Compact model – batch 306.,352
+308,Bluetooth Headphones Premium,Electronics,Wireless headphones with noise cancellation. Premium model – batch 307.,433
+309,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 308.,295
+310,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 309.,78
+311,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 310.,41
+312,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 311.,391
+313,HDMI Cable Compact,Accessories,High-speed HDMI 2.0 cable. Compact model – batch 312.,288
+314,Full HD Webcam USB-C,Electronics,1080p webcam for video conferencing. USB-C model – batch 313.,387
+315,Multifunction Printer Standard,Electronics,Printer with scanner and copier. Standard model – batch 314.,297
+316,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 315.,236
+317,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 316.,86
+318,Bluetooth Headphones Premium,Electronics,Wireless headphones with noise cancellation. Premium model – batch 317.,411
+319,24 Inch Monitor Advanced,Electronics,Full HD monitor for work and gaming. Advanced model – batch 318.,135
+320,Mechanical Keyboard USB-C,Electronics,Mechanical keyboard with blue switches. USB-C model – batch 319.,87
+321,24 Inch Monitor Premium,Electronics,Full HD monitor for work and gaming. Premium model – batch 320.,77
+322,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 321.,259
+323,Full HD Webcam USB-C,Electronics,1080p webcam for video conferencing. USB-C model – batch 322.,217
+324,University Notebook USB-C,Stationery,Notebook with 200 pages. USB-C model – batch 323.,476
+325,Laptop Stand Standard,Accessories,Adjustable ergonomic laptop stand. Standard model – batch 324.,125
+326,USB Flash Drive 64GB Wireless,Electronics,USB 3.0 flash drive with 64GB capacity. Wireless model – batch 325.,488
+327,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 326.,251
+328,24 Inch Monitor Pro,Electronics,Full HD monitor for work and gaming. Pro model – batch 327.,338
+329,University Notebook Compact,Stationery,Notebook with 200 pages. Compact model – batch 328.,236
+330,Django Book USB-C,Book,Web development with Django. USB-C model – batch 329.,330
+331,External Hard Drive 1TB Standard,Electronics,Portable 1TB external storage. Standard model – batch 330.,36
+332,Laptop i5 Compact,Electronics,Laptop with Intel i5 processor and SSD. Compact model – batch 331.,233
+333,University Notebook Compact,Stationery,Notebook with 200 pages. Compact model – batch 332.,200
+334,USB Mouse Standard,Electronics,Wired USB mouse with high precision. Standard model – batch 333.,485
+335,Laptop Stand Advanced,Accessories,Adjustable ergonomic laptop stand. Advanced model – batch 334.,15
+336,Full HD Webcam Plus,Electronics,1080p webcam for video conferencing. Plus model – batch 335.,142
+337,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 336.,341
+338,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 337.,328
+339,24 Inch Monitor USB-C,Electronics,Full HD monitor for work and gaming. USB-C model – batch 338.,424
+340,Laptop Backpack Advanced,Accessories,Durable backpack for up to 15-inch laptops. Advanced model – batch 339.,358
+341,University Notebook Standard,Stationery,Notebook with 200 pages. Standard model – batch 340.,73
+342,Gaming Mousepad Premium,Accessories,Large mousepad with non-slip base. Premium model – batch 341.,156
+343,Full HD Webcam Premium,Electronics,1080p webcam for video conferencing. Premium model – batch 342.,21
+344,Laptop Stand Advanced,Accessories,Adjustable ergonomic laptop stand. Advanced model – batch 343.,277
+345,24 Inch Monitor Pro,Electronics,Full HD monitor for work and gaming. Pro model – batch 344.,126
+346,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 345.,380
+347,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 346.,37
+348,University Notebook Advanced,Stationery,Notebook with 200 pages. Advanced model – batch 347.,405
+349,ATX Power Supply 600W Advanced,Electronics,600W certified power supply. Advanced model – batch 348.,204
+350,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 349.,448
+351,Laptop Stand Advanced,Accessories,Adjustable ergonomic laptop stand. Advanced model – batch 350.,491
+352,24 Inch Monitor Standard,Electronics,Full HD monitor for work and gaming. Standard model – batch 351.,170
+353,Mechanical Keyboard Wireless,Electronics,Mechanical keyboard with blue switches. Wireless model – batch 352.,381
+354,Laptop i5 Standard,Electronics,Laptop with Intel i5 processor and SSD. Standard model – batch 353.,350
+355,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 354.,144
+356,University Notebook Advanced,Stationery,Notebook with 200 pages. Advanced model – batch 355.,491
+357,Laptop Stand Standard,Accessories,Adjustable ergonomic laptop stand. Standard model – batch 356.,292
+358,24 Inch Monitor Standard,Electronics,Full HD monitor for work and gaming. Standard model – batch 357.,61
+359,HDMI Cable Pro,Accessories,High-speed HDMI 2.0 cable. Pro model – batch 358.,122
+360,USB Flash Drive 64GB USB-C,Electronics,USB 3.0 flash drive with 64GB capacity. USB-C model – batch 359.,367
+361,Laptop Backpack Plus,Accessories,Durable backpack for up to 15-inch laptops. Plus model – batch 360.,19
+362,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 361.,175
+363,Gaming Mousepad Standard,Accessories,Large mousepad with non-slip base. Standard model – batch 362.,233
+364,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 363.,447
+365,USB Flash Drive 64GB Plus,Electronics,USB 3.0 flash drive with 64GB capacity. Plus model – batch 364.,386
+366,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 365.,452
+367,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 366.,411
+368,Python Book Wireless,Book,Learn Python from beginner to advanced. Wireless model – batch 367.,14
+369,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 368.,248
+370,Clean Code Book Pro,Book,Best practices for clean and maintainable code. Pro model – batch 369.,343
+371,HDMI Cable Standard,Accessories,High-speed HDMI 2.0 cable. Standard model – batch 370.,185
+372,Full HD Webcam Advanced,Electronics,1080p webcam for video conferencing. Advanced model – batch 371.,69
+373,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 372.,91
+374,Blue Pen Plus,Stationery,Blue ballpoint pen. Plus model – batch 373.,142
+375,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 374.,307
+376,Full HD Webcam USB-C,Electronics,1080p webcam for video conferencing. USB-C model – batch 375.,132
+377,Laptop i5 Compact,Electronics,Laptop with Intel i5 processor and SSD. Compact model – batch 376.,314
+378,HDMI Cable Compact,Accessories,High-speed HDMI 2.0 cable. Compact model – batch 377.,131
+379,24 Inch Monitor Premium,Electronics,Full HD monitor for work and gaming. Premium model – batch 378.,404
+380,Algorithms Book Premium,Book,Introduction to algorithms and programming logic. Premium model – batch 379.,165
+381,Algorithms Book Standard,Book,Introduction to algorithms and programming logic. Standard model – batch 380.,332
+382,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 381.,12
+383,Mechanical Keyboard Advanced,Electronics,Mechanical keyboard with blue switches. Advanced model – batch 382.,189
+384,Clean Code Book Plus,Book,Best practices for clean and maintainable code. Plus model – batch 383.,215
+385,Django Book Plus,Book,Web development with Django. Plus model – batch 384.,301
+386,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 385.,185
+387,Bluetooth Headphones Pro,Electronics,Wireless headphones with noise cancellation. Pro model – batch 386.,381
+388,Bluetooth Headphones Compact,Electronics,Wireless headphones with noise cancellation. Compact model – batch 387.,160
+389,Laptop Stand Wireless,Accessories,Adjustable ergonomic laptop stand. Wireless model – batch 388.,270
+390,Clean Code Book Standard,Book,Best practices for clean and maintainable code. Standard model – batch 389.,404
+391,USB Flash Drive 64GB Compact,Electronics,USB 3.0 flash drive with 64GB capacity. Compact model – batch 390.,400
+392,Clean Code Book Wireless,Book,Best practices for clean and maintainable code. Wireless model – batch 391.,437
+393,USB Mouse USB-C,Electronics,Wired USB mouse with high precision. USB-C model – batch 392.,309
+394,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 393.,23
+395,University Notebook Standard,Stationery,Notebook with 200 pages. Standard model – batch 394.,342
+396,Algorithms Book Compact,Book,Introduction to algorithms and programming logic. Compact model – batch 395.,485
+397,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 396.,357
+398,Gaming Mousepad Pro,Accessories,Large mousepad with non-slip base. Pro model – batch 397.,149
+399,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 398.,124
+400,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 399.,382
+401,Multifunction Printer Standard,Electronics,Printer with scanner and copier. Standard model – batch 400.,389
+402,Python Book USB-C,Book,Learn Python from beginner to advanced. USB-C model – batch 401.,189
+403,Mechanical Keyboard Standard,Electronics,Mechanical keyboard with blue switches. Standard model – batch 402.,411
+404,HDMI Cable Standard,Accessories,High-speed HDMI 2.0 cable. Standard model – batch 403.,142
+405,Full HD Webcam Plus,Electronics,1080p webcam for video conferencing. Plus model – batch 404.,470
+406,USB Flash Drive 64GB USB-C,Electronics,USB 3.0 flash drive with 64GB capacity. USB-C model – batch 405.,140
+407,Full HD Webcam Advanced,Electronics,1080p webcam for video conferencing. Advanced model – batch 406.,300
+408,University Notebook USB-C,Stationery,Notebook with 200 pages. USB-C model – batch 407.,225
+409,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 408.,59
+410,24 Inch Monitor Pro,Electronics,Full HD monitor for work and gaming. Pro model – batch 409.,352
+411,Laptop Backpack Compact,Accessories,Durable backpack for up to 15-inch laptops. Compact model – batch 410.,243
+412,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 411.,300
+413,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 412.,30
+414,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 413.,374
+415,Django Book USB-C,Book,Web development with Django. USB-C model – batch 414.,445
+416,Clean Code Book Pro,Book,Best practices for clean and maintainable code. Pro model – batch 415.,186
+417,Laptop Stand Pro,Accessories,Adjustable ergonomic laptop stand. Pro model – batch 416.,137
+418,Python Book Plus,Book,Learn Python from beginner to advanced. Plus model – batch 417.,127
+419,External Hard Drive 1TB Compact,Electronics,Portable 1TB external storage. Compact model – batch 418.,474
+420,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 419.,22
+421,USB Flash Drive 64GB USB-C,Electronics,USB 3.0 flash drive with 64GB capacity. USB-C model – batch 420.,96
+422,External Hard Drive 1TB Pro,Electronics,Portable 1TB external storage. Pro model – batch 421.,481
+423,24 Inch Monitor USB-C,Electronics,Full HD monitor for work and gaming. USB-C model – batch 422.,235
+424,USB Mouse USB-C,Electronics,Wired USB mouse with high precision. USB-C model – batch 423.,366
+425,Laptop Backpack Standard,Accessories,Durable backpack for up to 15-inch laptops. Standard model – batch 424.,236
+426,Mechanical Keyboard Pro,Electronics,Mechanical keyboard with blue switches. Pro model – batch 425.,473
+427,External Hard Drive 1TB Premium,Electronics,Portable 1TB external storage. Premium model – batch 426.,432
+428,Algorithms Book Premium,Book,Introduction to algorithms and programming logic. Premium model – batch 427.,199
+429,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 428.,53
+430,External Hard Drive 1TB Compact,Electronics,Portable 1TB external storage. Compact model – batch 429.,374
+431,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 430.,200
+432,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 431.,491
+433,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 432.,62
+434,ATX Power Supply 600W Standard,Electronics,600W certified power supply. Standard model – batch 433.,100
+435,HDMI Cable Plus,Accessories,High-speed HDMI 2.0 cable. Plus model – batch 434.,449
+436,Bluetooth Headphones Pro,Electronics,Wireless headphones with noise cancellation. Pro model – batch 435.,220
+437,USB Flash Drive 64GB Standard,Electronics,USB 3.0 flash drive with 64GB capacity. Standard model – batch 436.,373
+438,HDMI Cable Standard,Accessories,High-speed HDMI 2.0 cable. Standard model – batch 437.,339
+439,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 438.,163
+440,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 439.,26
+441,University Notebook Premium,Stationery,Notebook with 200 pages. Premium model – batch 440.,265
+442,Mechanical Keyboard Premium,Electronics,Mechanical keyboard with blue switches. Premium model – batch 441.,110
+443,HDMI Cable Premium,Accessories,High-speed HDMI 2.0 cable. Premium model – batch 442.,213
+444,Django Book Advanced,Book,Web development with Django. Advanced model – batch 443.,472
+445,External Hard Drive 1TB Plus,Electronics,Portable 1TB external storage. Plus model – batch 444.,119
+446,Django Book Plus,Book,Web development with Django. Plus model – batch 445.,279
+447,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 446.,432
+448,Mechanical Keyboard Standard,Electronics,Mechanical keyboard with blue switches. Standard model – batch 447.,202
+449,Clean Code Book Standard,Book,Best practices for clean and maintainable code. Standard model – batch 448.,221
+450,University Notebook Premium,Stationery,Notebook with 200 pages. Premium model – batch 449.,95
+451,Laptop Stand USB-C,Accessories,Adjustable ergonomic laptop stand. USB-C model – batch 450.,55
+452,Laptop Backpack Standard,Accessories,Durable backpack for up to 15-inch laptops. Standard model – batch 451.,385
+453,Mechanical Keyboard Premium,Electronics,Mechanical keyboard with blue switches. Premium model – batch 452.,317
+454,Mechanical Keyboard Pro,Electronics,Mechanical keyboard with blue switches. Pro model – batch 453.,112
+455,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 454.,418
+456,External Hard Drive 1TB Premium,Electronics,Portable 1TB external storage. Premium model – batch 455.,10
+457,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 456.,50
+458,Django Book Premium,Book,Web development with Django. Premium model – batch 457.,219
+459,University Notebook Premium,Stationery,Notebook with 200 pages. Premium model – batch 458.,451
+460,Bluetooth Headphones Compact,Electronics,Wireless headphones with noise cancellation. Compact model – batch 459.,106
+461,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 460.,37
+462,USB Mouse USB-C,Electronics,Wired USB mouse with high precision. USB-C model – batch 461.,386
+463,Gaming Mousepad Wireless,Accessories,Large mousepad with non-slip base. Wireless model – batch 462.,404
+464,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 463.,335
+465,Bluetooth Headphones Premium,Electronics,Wireless headphones with noise cancellation. Premium model – batch 464.,474
+466,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 465.,88
+467,24 Inch Monitor Advanced,Electronics,Full HD monitor for work and gaming. Advanced model – batch 466.,361
+468,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 467.,263
+469,External Hard Drive 1TB Advanced,Electronics,Portable 1TB external storage. Advanced model – batch 468.,325
+470,Laptop Stand Advanced,Accessories,Adjustable ergonomic laptop stand. Advanced model – batch 469.,332
+471,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 470.,403
+472,Clean Code Book Pro,Book,Best practices for clean and maintainable code. Pro model – batch 471.,349
+473,Python Book Compact,Book,Learn Python from beginner to advanced. Compact model – batch 472.,319
+474,Laptop i5 Wireless,Electronics,Laptop with Intel i5 processor and SSD. Wireless model – batch 473.,156
+475,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 474.,453
+476,Blue Pen Plus,Stationery,Blue ballpoint pen. Plus model – batch 475.,66
+477,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 476.,122
+478,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 477.,413
+479,Blue Pen Pro,Stationery,Blue ballpoint pen. Pro model – batch 478.,153
+480,Algorithms Book Standard,Book,Introduction to algorithms and programming logic. Standard model – batch 479.,427
+481,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 480.,439
+482,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 481.,482
+483,HDMI Cable Advanced,Accessories,High-speed HDMI 2.0 cable. Advanced model – batch 482.,492
+484,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 483.,461
+485,24 Inch Monitor Advanced,Electronics,Full HD monitor for work and gaming. Advanced model – batch 484.,373
+486,USB Flash Drive 64GB Standard,Electronics,USB 3.0 flash drive with 64GB capacity. Standard model – batch 485.,162
+487,Laptop Stand Plus,Accessories,Adjustable ergonomic laptop stand. Plus model – batch 486.,174
+488,Clean Code Book Standard,Book,Best practices for clean and maintainable code. Standard model – batch 487.,150
+489,USB Mouse USB-C,Electronics,Wired USB mouse with high precision. USB-C model – batch 488.,122
+490,Mechanical Keyboard Compact,Electronics,Mechanical keyboard with blue switches. Compact model – batch 489.,260
+491,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 490.,170
+492,Gaming Mousepad Plus,Accessories,Large mousepad with non-slip base. Plus model – batch 491.,165
+493,HDMI Cable Standard,Accessories,High-speed HDMI 2.0 cable. Standard model – batch 492.,172
+494,HDMI Cable Standard,Accessories,High-speed HDMI 2.0 cable. Standard model – batch 493.,22
+495,Clean Code Book Wireless,Book,Best practices for clean and maintainable code. Wireless model – batch 494.,290
+496,Blue Pen Standard,Stationery,Blue ballpoint pen. Standard model – batch 495.,29
+497,Laptop Backpack Premium,Accessories,Durable backpack for up to 15-inch laptops. Premium model – batch 496.,304
+498,HDMI Cable Compact,Accessories,High-speed HDMI 2.0 cable. Compact model – batch 497.,113
+499,Laptop i5 Wireless,Electronics,Laptop with Intel i5 processor and SSD. Wireless model – batch 498.,262
+500,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 499.,117
+501,Algorithms Book Pro,Book,Introduction to algorithms and programming logic. Pro model – batch 500.,12
+502,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 501.,436
+503,Gaming Mousepad USB-C,Accessories,Large mousepad with non-slip base. USB-C model – batch 502.,84
+504,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 503.,422
+505,Mechanical Keyboard Wireless,Electronics,Mechanical keyboard with blue switches. Wireless model – batch 504.,50
+506,Bluetooth Headphones Advanced,Electronics,Wireless headphones with noise cancellation. Advanced model – batch 505.,307
+507,Bluetooth Headphones Advanced,Electronics,Wireless headphones with noise cancellation. Advanced model – batch 506.,249
+508,Laptop Backpack Premium,Accessories,Durable backpack for up to 15-inch laptops. Premium model – batch 507.,240
+509,USB Mouse Advanced,Electronics,Wired USB mouse with high precision. Advanced model – batch 508.,71
+510,USB Flash Drive 64GB Advanced,Electronics,USB 3.0 flash drive with 64GB capacity. Advanced model – batch 509.,403
+511,Python Book Advanced,Book,Learn Python from beginner to advanced. Advanced model – batch 510.,471
+512,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 511.,45
+513,Django Book Standard,Book,Web development with Django. Standard model – batch 512.,71
+514,USB Flash Drive 64GB Wireless,Electronics,USB 3.0 flash drive with 64GB capacity. Wireless model – batch 513.,341
+515,USB Mouse Compact,Electronics,Wired USB mouse with high precision. Compact model – batch 514.,286
+516,Laptop i5 Pro,Electronics,Laptop with Intel i5 processor and SSD. Pro model – batch 515.,358
+517,Gaming Mousepad Advanced,Accessories,Large mousepad with non-slip base. Advanced model – batch 516.,373
+518,USB Flash Drive 64GB Advanced,Electronics,USB 3.0 flash drive with 64GB capacity. Advanced model – batch 517.,323
+519,24 Inch Monitor Advanced,Electronics,Full HD monitor for work and gaming. Advanced model – batch 518.,38
+520,Laptop Backpack Compact,Accessories,Durable backpack for up to 15-inch laptops. Compact model – batch 519.,357
+521,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 520.,317
+522,Django Book Wireless,Book,Web development with Django. Wireless model – batch 521.,404
+523,Multifunction Printer Advanced,Electronics,Printer with scanner and copier. Advanced model – batch 522.,499
+524,Gaming Mousepad Advanced,Accessories,Large mousepad with non-slip base. Advanced model – batch 523.,307
+525,Django Book Plus,Book,Web development with Django. Plus model – batch 524.,321
+526,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 525.,449
+527,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 526.,68
+528,External Hard Drive 1TB Standard,Electronics,Portable 1TB external storage. Standard model – batch 527.,53
+529,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 528.,266
+530,Python Book Advanced,Book,Learn Python from beginner to advanced. Advanced model – batch 529.,132
+531,USB Flash Drive 64GB Advanced,Electronics,USB 3.0 flash drive with 64GB capacity. Advanced model – batch 530.,125
+532,USB Mouse Standard,Electronics,Wired USB mouse with high precision. Standard model – batch 531.,450
+533,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 532.,95
+534,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 533.,375
+535,Multifunction Printer Plus,Electronics,Printer with scanner and copier. Plus model – batch 534.,266
+536,Gaming Mousepad Plus,Accessories,Large mousepad with non-slip base. Plus model – batch 535.,123
+537,Algorithms Book USB-C,Book,Introduction to algorithms and programming logic. USB-C model – batch 536.,445
+538,External Hard Drive 1TB Advanced,Electronics,Portable 1TB external storage. Advanced model – batch 537.,437
+539,Clean Code Book Advanced,Book,Best practices for clean and maintainable code. Advanced model – batch 538.,212
+540,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 539.,431
+541,Algorithms Book Compact,Book,Introduction to algorithms and programming logic. Compact model – batch 540.,293
+542,HDMI Cable Premium,Accessories,High-speed HDMI 2.0 cable. Premium model – batch 541.,199
+543,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 542.,336
+544,External Hard Drive 1TB Wireless,Electronics,Portable 1TB external storage. Wireless model – batch 543.,251
+545,Full HD Webcam Standard,Electronics,1080p webcam for video conferencing. Standard model – batch 544.,269
+546,USB Flash Drive 64GB Compact,Electronics,USB 3.0 flash drive with 64GB capacity. Compact model – batch 545.,42
+547,Full HD Webcam Premium,Electronics,1080p webcam for video conferencing. Premium model – batch 546.,281
+548,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 547.,484
+549,University Notebook USB-C,Stationery,Notebook with 200 pages. USB-C model – batch 548.,323
+550,Django Book Pro,Book,Web development with Django. Pro model – batch 549.,76
+551,Laptop Backpack Premium,Accessories,Durable backpack for up to 15-inch laptops. Premium model – batch 550.,292
+552,HDMI Cable Premium,Accessories,High-speed HDMI 2.0 cable. Premium model – batch 551.,456
+553,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 552.,299
+554,University Notebook Compact,Stationery,Notebook with 200 pages. Compact model – batch 553.,431
+555,Multifunction Printer Advanced,Electronics,Printer with scanner and copier. Advanced model – batch 554.,198
+556,University Notebook Standard,Stationery,Notebook with 200 pages. Standard model – batch 555.,465
+557,Laptop Backpack Compact,Accessories,Durable backpack for up to 15-inch laptops. Compact model – batch 556.,486
+558,Algorithms Book Wireless,Book,Introduction to algorithms and programming logic. Wireless model – batch 557.,376
+559,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 558.,274
+560,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 559.,261
+561,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 560.,314
+562,24 Inch Monitor Standard,Electronics,Full HD monitor for work and gaming. Standard model – batch 561.,283
+563,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 562.,360
+564,Bluetooth Headphones USB-C,Electronics,Wireless headphones with noise cancellation. USB-C model – batch 563.,437
+565,Python Book Plus,Book,Learn Python from beginner to advanced. Plus model – batch 564.,191
+566,Gaming Mousepad Plus,Accessories,Large mousepad with non-slip base. Plus model – batch 565.,238
+567,Full HD Webcam Wireless,Electronics,1080p webcam for video conferencing. Wireless model – batch 566.,421
+568,Bluetooth Headphones Compact,Electronics,Wireless headphones with noise cancellation. Compact model – batch 567.,336
+569,Mechanical Keyboard Pro,Electronics,Mechanical keyboard with blue switches. Pro model – batch 568.,391
+570,Python Book Pro,Book,Learn Python from beginner to advanced. Pro model – batch 569.,341
+571,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 570.,209
+572,Multifunction Printer Wireless,Electronics,Printer with scanner and copier. Wireless model – batch 571.,262
+573,Laptop Stand Standard,Accessories,Adjustable ergonomic laptop stand. Standard model – batch 572.,481
+574,Django Book Compact,Book,Web development with Django. Compact model – batch 573.,257
+575,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 574.,413
+576,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 575.,401
+577,USB Flash Drive 64GB Wireless,Electronics,USB 3.0 flash drive with 64GB capacity. Wireless model – batch 576.,194
+578,Blue Pen Plus,Stationery,Blue ballpoint pen. Plus model – batch 577.,397
+579,Full HD Webcam Compact,Electronics,1080p webcam for video conferencing. Compact model – batch 578.,337
+580,USB Mouse Advanced,Electronics,Wired USB mouse with high precision. Advanced model – batch 579.,411
+581,HDMI Cable Compact,Accessories,High-speed HDMI 2.0 cable. Compact model – batch 580.,106
+582,Algorithms Book USB-C,Book,Introduction to algorithms and programming logic. USB-C model – batch 581.,68
+583,24 Inch Monitor Compact,Electronics,Full HD monitor for work and gaming. Compact model – batch 582.,246
+584,Laptop Stand Plus,Accessories,Adjustable ergonomic laptop stand. Plus model – batch 583.,204
+585,Laptop i5 Pro,Electronics,Laptop with Intel i5 processor and SSD. Pro model – batch 584.,85
+586,USB Mouse Advanced,Electronics,Wired USB mouse with high precision. Advanced model – batch 585.,476
+587,Laptop i5 Standard,Electronics,Laptop with Intel i5 processor and SSD. Standard model – batch 586.,277
+588,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 587.,163
+589,24 Inch Monitor Compact,Electronics,Full HD monitor for work and gaming. Compact model – batch 588.,130
+590,Django Book Premium,Book,Web development with Django. Premium model – batch 589.,82
+591,Django Book Plus,Book,Web development with Django. Plus model – batch 590.,428
+592,Full HD Webcam Premium,Electronics,1080p webcam for video conferencing. Premium model – batch 591.,292
+593,HDMI Cable USB-C,Accessories,High-speed HDMI 2.0 cable. USB-C model – batch 592.,90
+594,Django Book Compact,Book,Web development with Django. Compact model – batch 593.,111
+595,Python Book Wireless,Book,Learn Python from beginner to advanced. Wireless model – batch 594.,113
+596,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 595.,336
+597,Laptop i5 USB-C,Electronics,Laptop with Intel i5 processor and SSD. USB-C model – batch 596.,169
+598,Mechanical Keyboard Standard,Electronics,Mechanical keyboard with blue switches. Standard model – batch 597.,123
+599,USB Flash Drive 64GB Advanced,Electronics,USB 3.0 flash drive with 64GB capacity. Advanced model – batch 598.,308
+600,Mechanical Keyboard Standard,Electronics,Mechanical keyboard with blue switches. Standard model – batch 599.,423
+601,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 600.,415
+602,Gaming Mousepad Standard,Accessories,Large mousepad with non-slip base. Standard model – batch 601.,439
+603,Gaming Mousepad Standard,Accessories,Large mousepad with non-slip base. Standard model – batch 602.,303
+604,USB Flash Drive 64GB Wireless,Electronics,USB 3.0 flash drive with 64GB capacity. Wireless model – batch 603.,153
+605,USB Flash Drive 64GB Standard,Electronics,USB 3.0 flash drive with 64GB capacity. Standard model – batch 604.,6
+606,USB Mouse Advanced,Electronics,Wired USB mouse with high precision. Advanced model – batch 605.,188
+607,External Hard Drive 1TB Compact,Electronics,Portable 1TB external storage. Compact model – batch 606.,296
+608,Multifunction Printer Plus,Electronics,Printer with scanner and copier. Plus model – batch 607.,281
+609,USB Mouse Pro,Electronics,Wired USB mouse with high precision. Pro model – batch 608.,160
+610,USB Mouse USB-C,Electronics,Wired USB mouse with high precision. USB-C model – batch 609.,110
+611,Clean Code Book Wireless,Book,Best practices for clean and maintainable code. Wireless model – batch 610.,313
+612,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 611.,184
+613,Multifunction Printer Wireless,Electronics,Printer with scanner and copier. Wireless model – batch 612.,99
+614,24 Inch Monitor Advanced,Electronics,Full HD monitor for work and gaming. Advanced model – batch 613.,406
+615,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 614.,175
+616,Clean Code Book Advanced,Book,Best practices for clean and maintainable code. Advanced model – batch 615.,80
+617,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 616.,20
+618,Gaming Mousepad Premium,Accessories,Large mousepad with non-slip base. Premium model – batch 617.,419
+619,External Hard Drive 1TB Compact,Electronics,Portable 1TB external storage. Compact model – batch 618.,172
+620,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 619.,363
+621,Laptop i5 USB-C,Electronics,Laptop with Intel i5 processor and SSD. USB-C model – batch 620.,392
+622,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 621.,189
+623,USB Flash Drive 64GB Wireless,Electronics,USB 3.0 flash drive with 64GB capacity. Wireless model – batch 622.,69
+624,Laptop Backpack Standard,Accessories,Durable backpack for up to 15-inch laptops. Standard model – batch 623.,319
+625,Blue Pen Plus,Stationery,Blue ballpoint pen. Plus model – batch 624.,82
+626,Multifunction Printer USB-C,Electronics,Printer with scanner and copier. USB-C model – batch 625.,419
+627,Multifunction Printer Premium,Electronics,Printer with scanner and copier. Premium model – batch 626.,152
+628,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 627.,378
+629,Gaming Mousepad Standard,Accessories,Large mousepad with non-slip base. Standard model – batch 628.,290
+630,Mechanical Keyboard Premium,Electronics,Mechanical keyboard with blue switches. Premium model – batch 629.,209
+631,Laptop Stand Compact,Accessories,Adjustable ergonomic laptop stand. Compact model – batch 630.,198
+632,Bluetooth Headphones Compact,Electronics,Wireless headphones with noise cancellation. Compact model – batch 631.,278
+633,Gaming Mousepad Plus,Accessories,Large mousepad with non-slip base. Plus model – batch 632.,398
+634,Blue Pen Standard,Stationery,Blue ballpoint pen. Standard model – batch 633.,301
+635,Django Book Premium,Book,Web development with Django. Premium model – batch 634.,35
+636,Multifunction Printer Premium,Electronics,Printer with scanner and copier. Premium model – batch 635.,398
+637,Laptop Backpack Compact,Accessories,Durable backpack for up to 15-inch laptops. Compact model – batch 636.,344
+638,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 637.,99
+639,External Hard Drive 1TB Standard,Electronics,Portable 1TB external storage. Standard model – batch 638.,219
+640,Laptop i5 USB-C,Electronics,Laptop with Intel i5 processor and SSD. USB-C model – batch 639.,494
+641,Gaming Mousepad Pro,Accessories,Large mousepad with non-slip base. Pro model – batch 640.,492
+642,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 641.,180
+643,Django Book Compact,Book,Web development with Django. Compact model – batch 642.,168
+644,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 643.,466
+645,External Hard Drive 1TB Standard,Electronics,Portable 1TB external storage. Standard model – batch 644.,123
+646,University Notebook Standard,Stationery,Notebook with 200 pages. Standard model – batch 645.,25
+647,University Notebook Standard,Stationery,Notebook with 200 pages. Standard model – batch 646.,493
+648,Python Book USB-C,Book,Learn Python from beginner to advanced. USB-C model – batch 647.,425
+649,Bluetooth Headphones Wireless,Electronics,Wireless headphones with noise cancellation. Wireless model – batch 648.,396
+650,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 649.,166
+651,Python Book Plus,Book,Learn Python from beginner to advanced. Plus model – batch 650.,159
+652,Algorithms Book Pro,Book,Introduction to algorithms and programming logic. Pro model – batch 651.,318
+653,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 652.,482
+654,Django Book Pro,Book,Web development with Django. Pro model – batch 653.,60
+655,USB Mouse Plus,Electronics,Wired USB mouse with high precision. Plus model – batch 654.,150
+656,Multifunction Printer Compact,Electronics,Printer with scanner and copier. Compact model – batch 655.,105
+657,University Notebook Standard,Stationery,Notebook with 200 pages. Standard model – batch 656.,149
+658,Python Book Compact,Book,Learn Python from beginner to advanced. Compact model – batch 657.,164
+659,USB Mouse Compact,Electronics,Wired USB mouse with high precision. Compact model – batch 658.,371
+660,Python Book Compact,Book,Learn Python from beginner to advanced. Compact model – batch 659.,393
+661,Django Book Standard,Book,Web development with Django. Standard model – batch 660.,120
+662,Blue Pen Plus,Stationery,Blue ballpoint pen. Plus model – batch 661.,129
+663,Laptop Stand Pro,Accessories,Adjustable ergonomic laptop stand. Pro model – batch 662.,145
+664,Python Book Compact,Book,Learn Python from beginner to advanced. Compact model – batch 663.,356
+665,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 664.,170
+666,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 665.,58
+667,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 666.,240
+668,Blue Pen USB-C,Stationery,Blue ballpoint pen. USB-C model – batch 667.,360
+669,Python Book Standard,Book,Learn Python from beginner to advanced. Standard model – batch 668.,348
+670,Laptop Backpack USB-C,Accessories,Durable backpack for up to 15-inch laptops. USB-C model – batch 669.,463
+671,Python Book USB-C,Book,Learn Python from beginner to advanced. USB-C model – batch 670.,21
+672,ATX Power Supply 600W Premium,Electronics,600W certified power supply. Premium model – batch 671.,498
+673,USB Flash Drive 64GB Wireless,Electronics,USB 3.0 flash drive with 64GB capacity. Wireless model – batch 672.,245
+674,Laptop Backpack Compact,Accessories,Durable backpack for up to 15-inch laptops. Compact model – batch 673.,426
+675,Laptop Stand Standard,Accessories,Adjustable ergonomic laptop stand. Standard model – batch 674.,243
+676,HDMI Cable Pro,Accessories,High-speed HDMI 2.0 cable. Pro model – batch 675.,212
+677,USB Flash Drive 64GB Standard,Electronics,USB 3.0 flash drive with 64GB capacity. Standard model – batch 676.,365
+678,Laptop Stand Plus,Accessories,Adjustable ergonomic laptop stand. Plus model – batch 677.,164
+679,Mechanical Keyboard Standard,Electronics,Mechanical keyboard with blue switches. Standard model – batch 678.,68
+680,Django Book Compact,Book,Web development with Django. Compact model – batch 679.,78
+681,Gaming Mousepad Advanced,Accessories,Large mousepad with non-slip base. Advanced model – batch 680.,446
+682,ATX Power Supply 600W Plus,Electronics,600W certified power supply. Plus model – batch 681.,298
+683,External Hard Drive 1TB Advanced,Electronics,Portable 1TB external storage. Advanced model – batch 682.,419
+684,Mechanical Keyboard Plus,Electronics,Mechanical keyboard with blue switches. Plus model – batch 683.,490
+685,USB Mouse Pro,Electronics,Wired USB mouse with high precision. Pro model – batch 684.,421
+686,Laptop Stand USB-C,Accessories,Adjustable ergonomic laptop stand. USB-C model – batch 685.,6
+687,HDMI Cable Plus,Accessories,High-speed HDMI 2.0 cable. Plus model – batch 686.,172
+688,Blue Pen Wireless,Stationery,Blue ballpoint pen. Wireless model – batch 687.,490
+689,Laptop i5 Pro,Electronics,Laptop with Intel i5 processor and SSD. Pro model – batch 688.,130
+690,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 689.,354
+691,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 690.,499
+692,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 691.,54
+693,Laptop i5 Pro,Electronics,Laptop with Intel i5 processor and SSD. Pro model – batch 692.,296
+694,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 693.,211
+695,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 694.,364
+696,Laptop Backpack Premium,Accessories,Durable backpack for up to 15-inch laptops. Premium model – batch 695.,217
+697,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 696.,241
+698,HDMI Cable Premium,Accessories,High-speed HDMI 2.0 cable. Premium model – batch 697.,42
+699,Multifunction Printer Standard,Electronics,Printer with scanner and copier. Standard model – batch 698.,476
+700,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 699.,444
+701,Laptop i5 Pro,Electronics,Laptop with Intel i5 processor and SSD. Pro model – batch 700.,278
+702,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 701.,271
+703,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 702.,384
+704,Laptop i5 Compact,Electronics,Laptop with Intel i5 processor and SSD. Compact model – batch 703.,28
+705,Django Book Standard,Book,Web development with Django. Standard model – batch 704.,15
+706,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 705.,402
+707,Python Book Advanced,Book,Learn Python from beginner to advanced. Advanced model – batch 706.,405
+708,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 707.,401
+709,Mechanical Keyboard Advanced,Electronics,Mechanical keyboard with blue switches. Advanced model – batch 708.,317
+710,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 709.,47
+711,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 710.,492
+712,Blue Pen Standard,Stationery,Blue ballpoint pen. Standard model – batch 711.,163
+713,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 712.,439
+714,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 713.,387
+715,University Notebook Compact,Stationery,Notebook with 200 pages. Compact model – batch 714.,160
+716,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 715.,495
+717,Laptop Stand Plus,Accessories,Adjustable ergonomic laptop stand. Plus model – batch 716.,323
+718,Algorithms Book Premium,Book,Introduction to algorithms and programming logic. Premium model – batch 717.,35
+719,Laptop Backpack USB-C,Accessories,Durable backpack for up to 15-inch laptops. USB-C model – batch 718.,362
+720,Clean Code Book Plus,Book,Best practices for clean and maintainable code. Plus model – batch 719.,200
+721,Laptop i5 Premium,Electronics,Laptop with Intel i5 processor and SSD. Premium model – batch 720.,280
+722,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 721.,264
+723,Laptop Stand Plus,Accessories,Adjustable ergonomic laptop stand. Plus model – batch 722.,488
+724,Multifunction Printer Premium,Electronics,Printer with scanner and copier. Premium model – batch 723.,23
+725,Mechanical Keyboard Advanced,Electronics,Mechanical keyboard with blue switches. Advanced model – batch 724.,58
+726,ATX Power Supply 600W Premium,Electronics,600W certified power supply. Premium model – batch 725.,429
+727,Mechanical Keyboard Wireless,Electronics,Mechanical keyboard with blue switches. Wireless model – batch 726.,9
+728,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 727.,220
+729,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 728.,72
+730,Algorithms Book USB-C,Book,Introduction to algorithms and programming logic. USB-C model – batch 729.,345
+731,Bluetooth Headphones USB-C,Electronics,Wireless headphones with noise cancellation. USB-C model – batch 730.,345
+732,External Hard Drive 1TB Standard,Electronics,Portable 1TB external storage. Standard model – batch 731.,206
+733,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 732.,84
+734,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 733.,303
+735,Blue Pen Standard,Stationery,Blue ballpoint pen. Standard model – batch 734.,301
+736,Laptop Backpack Pro,Accessories,Durable backpack for up to 15-inch laptops. Pro model – batch 735.,261
+737,Laptop i5 Premium,Electronics,Laptop with Intel i5 processor and SSD. Premium model – batch 736.,424
+738,Bluetooth Headphones Standard,Electronics,Wireless headphones with noise cancellation. Standard model – batch 737.,230
+739,Laptop i5 Wireless,Electronics,Laptop with Intel i5 processor and SSD. Wireless model – batch 738.,496
+740,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 739.,161
+741,Mechanical Keyboard Plus,Electronics,Mechanical keyboard with blue switches. Plus model – batch 740.,133
+742,Clean Code Book Advanced,Book,Best practices for clean and maintainable code. Advanced model – batch 741.,486
+743,Laptop Stand Pro,Accessories,Adjustable ergonomic laptop stand. Pro model – batch 742.,94
+744,Python Book Advanced,Book,Learn Python from beginner to advanced. Advanced model – batch 743.,462
+745,Django Book Plus,Book,Web development with Django. Plus model – batch 744.,459
+746,Multifunction Printer Standard,Electronics,Printer with scanner and copier. Standard model – batch 745.,302
+747,24 Inch Monitor Standard,Electronics,Full HD monitor for work and gaming. Standard model – batch 746.,158
+748,Laptop Stand Premium,Accessories,Adjustable ergonomic laptop stand. Premium model – batch 747.,120
+749,Mechanical Keyboard Advanced,Electronics,Mechanical keyboard with blue switches. Advanced model – batch 748.,192
+750,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 749.,89
+751,24 Inch Monitor Compact,Electronics,Full HD monitor for work and gaming. Compact model – batch 750.,94
+752,University Notebook USB-C,Stationery,Notebook with 200 pages. USB-C model – batch 751.,47
+753,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 752.,161
+754,Mechanical Keyboard Premium,Electronics,Mechanical keyboard with blue switches. Premium model – batch 753.,385
+755,USB Mouse Standard,Electronics,Wired USB mouse with high precision. Standard model – batch 754.,365
+756,HDMI Cable Pro,Accessories,High-speed HDMI 2.0 cable. Pro model – batch 755.,202
+757,USB Flash Drive 64GB Advanced,Electronics,USB 3.0 flash drive with 64GB capacity. Advanced model – batch 756.,441
+758,Multifunction Printer Standard,Electronics,Printer with scanner and copier. Standard model – batch 757.,303
+759,ATX Power Supply 600W Standard,Electronics,600W certified power supply. Standard model – batch 758.,232
+760,Blue Pen USB-C,Stationery,Blue ballpoint pen. USB-C model – batch 759.,401
+761,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 760.,96
+762,Laptop Stand Premium,Accessories,Adjustable ergonomic laptop stand. Premium model – batch 761.,385
+763,External Hard Drive 1TB Plus,Electronics,Portable 1TB external storage. Plus model – batch 762.,401
+764,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 763.,466
+765,University Notebook Premium,Stationery,Notebook with 200 pages. Premium model – batch 764.,167
+766,Multifunction Printer Plus,Electronics,Printer with scanner and copier. Plus model – batch 765.,338
+767,ATX Power Supply 600W Premium,Electronics,600W certified power supply. Premium model – batch 766.,344
+768,Blue Pen Standard,Stationery,Blue ballpoint pen. Standard model – batch 767.,207
+769,HDMI Cable Plus,Accessories,High-speed HDMI 2.0 cable. Plus model – batch 768.,131
+770,Python Book USB-C,Book,Learn Python from beginner to advanced. USB-C model – batch 769.,479
+771,Laptop i5 Premium,Electronics,Laptop with Intel i5 processor and SSD. Premium model – batch 770.,49
+772,Blue Pen Standard,Stationery,Blue ballpoint pen. Standard model – batch 771.,440
+773,Blue Pen Advanced,Stationery,Blue ballpoint pen. Advanced model – batch 772.,355
+774,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 773.,457
+775,Clean Code Book Advanced,Book,Best practices for clean and maintainable code. Advanced model – batch 774.,20
+776,Clean Code Book Wireless,Book,Best practices for clean and maintainable code. Wireless model – batch 775.,111
+777,Django Book Wireless,Book,Web development with Django. Wireless model – batch 776.,294
+778,External Hard Drive 1TB Plus,Electronics,Portable 1TB external storage. Plus model – batch 777.,156
+779,Clean Code Book USB-C,Book,Best practices for clean and maintainable code. USB-C model – batch 778.,84
+780,Mechanical Keyboard Compact,Electronics,Mechanical keyboard with blue switches. Compact model – batch 779.,316
+781,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 780.,488
+782,Python Book Pro,Book,Learn Python from beginner to advanced. Pro model – batch 781.,27
+783,Laptop i5 Advanced,Electronics,Laptop with Intel i5 processor and SSD. Advanced model – batch 782.,170
+784,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 783.,181
+785,USB Mouse Pro,Electronics,Wired USB mouse with high precision. Pro model – batch 784.,218
+786,Blue Pen USB-C,Stationery,Blue ballpoint pen. USB-C model – batch 785.,402
+787,24 Inch Monitor Plus,Electronics,Full HD monitor for work and gaming. Plus model – batch 786.,109
+788,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 787.,13
+789,USB Mouse Plus,Electronics,Wired USB mouse with high precision. Plus model – batch 788.,294
+790,ATX Power Supply 600W Advanced,Electronics,600W certified power supply. Advanced model – batch 789.,54
+791,Algorithms Book Pro,Book,Introduction to algorithms and programming logic. Pro model – batch 790.,316
+792,Django Book USB-C,Book,Web development with Django. USB-C model – batch 791.,368
+793,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 792.,386
+794,Multifunction Printer Premium,Electronics,Printer with scanner and copier. Premium model – batch 793.,250
+795,Gaming Mousepad USB-C,Accessories,Large mousepad with non-slip base. USB-C model – batch 794.,18
+796,Algorithms Book USB-C,Book,Introduction to algorithms and programming logic. USB-C model – batch 795.,44
+797,Gaming Mousepad Wireless,Accessories,Large mousepad with non-slip base. Wireless model – batch 796.,492
+798,Bluetooth Headphones Premium,Electronics,Wireless headphones with noise cancellation. Premium model – batch 797.,102
+799,Algorithms Book Standard,Book,Introduction to algorithms and programming logic. Standard model – batch 798.,214
+800,Full HD Webcam Compact,Electronics,1080p webcam for video conferencing. Compact model – batch 799.,184
+801,Multifunction Printer Wireless,Electronics,Printer with scanner and copier. Wireless model – batch 800.,89
+802,Mechanical Keyboard Plus,Electronics,Mechanical keyboard with blue switches. Plus model – batch 801.,15
+803,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 802.,35
+804,Django Book Wireless,Book,Web development with Django. Wireless model – batch 803.,12
+805,Django Book USB-C,Book,Web development with Django. USB-C model – batch 804.,249
+806,Django Book Pro,Book,Web development with Django. Pro model – batch 805.,322
+807,Blue Pen USB-C,Stationery,Blue ballpoint pen. USB-C model – batch 806.,86
+808,Gaming Mousepad Wireless,Accessories,Large mousepad with non-slip base. Wireless model – batch 807.,459
+809,Bluetooth Headphones Plus,Electronics,Wireless headphones with noise cancellation. Plus model – batch 808.,383
+810,ATX Power Supply 600W Advanced,Electronics,600W certified power supply. Advanced model – batch 809.,387
+811,24 Inch Monitor Premium,Electronics,Full HD monitor for work and gaming. Premium model – batch 810.,395
+812,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 811.,163
+813,Laptop Stand USB-C,Accessories,Adjustable ergonomic laptop stand. USB-C model – batch 812.,86
+814,Multifunction Printer Compact,Electronics,Printer with scanner and copier. Compact model – batch 813.,296
+815,24 Inch Monitor Pro,Electronics,Full HD monitor for work and gaming. Pro model – batch 814.,366
+816,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 815.,318
+817,HDMI Cable USB-C,Accessories,High-speed HDMI 2.0 cable. USB-C model – batch 816.,109
+818,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 817.,92
+819,Full HD Webcam Plus,Electronics,1080p webcam for video conferencing. Plus model – batch 818.,421
+820,ATX Power Supply 600W Advanced,Electronics,600W certified power supply. Advanced model – batch 819.,428
+821,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 820.,108
+822,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 821.,439
+823,USB Mouse USB-C,Electronics,Wired USB mouse with high precision. USB-C model – batch 822.,83
+824,USB Mouse Wireless,Electronics,Wired USB mouse with high precision. Wireless model – batch 823.,439
+825,ATX Power Supply 600W Pro,Electronics,600W certified power supply. Pro model – batch 824.,226
+826,ATX Power Supply 600W Pro,Electronics,600W certified power supply. Pro model – batch 825.,71
+827,Mechanical Keyboard Plus,Electronics,Mechanical keyboard with blue switches. Plus model – batch 826.,377
+828,Multifunction Printer Plus,Electronics,Printer with scanner and copier. Plus model – batch 827.,185
+829,Clean Code Book Pro,Book,Best practices for clean and maintainable code. Pro model – batch 828.,282
+830,Full HD Webcam Wireless,Electronics,1080p webcam for video conferencing. Wireless model – batch 829.,417
+831,HDMI Cable Compact,Accessories,High-speed HDMI 2.0 cable. Compact model – batch 830.,16
+832,Python Book Premium,Book,Learn Python from beginner to advanced. Premium model – batch 831.,188
+833,Multifunction Printer Wireless,Electronics,Printer with scanner and copier. Wireless model – batch 832.,99
+834,USB Mouse Advanced,Electronics,Wired USB mouse with high precision. Advanced model – batch 833.,317
+835,Multifunction Printer Wireless,Electronics,Printer with scanner and copier. Wireless model – batch 834.,249
+836,Laptop i5 Standard,Electronics,Laptop with Intel i5 processor and SSD. Standard model – batch 835.,463
+837,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 836.,146
+838,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 837.,464
+839,Laptop i5 Standard,Electronics,Laptop with Intel i5 processor and SSD. Standard model – batch 838.,377
+840,24 Inch Monitor Pro,Electronics,Full HD monitor for work and gaming. Pro model – batch 839.,382
+841,Gaming Mousepad Standard,Accessories,Large mousepad with non-slip base. Standard model – batch 840.,360
+842,Gaming Mousepad Pro,Accessories,Large mousepad with non-slip base. Pro model – batch 841.,293
+843,External Hard Drive 1TB Compact,Electronics,Portable 1TB external storage. Compact model – batch 842.,469
+844,USB Flash Drive 64GB Advanced,Electronics,USB 3.0 flash drive with 64GB capacity. Advanced model – batch 843.,193
+845,University Notebook Standard,Stationery,Notebook with 200 pages. Standard model – batch 844.,404
+846,Bluetooth Headphones Premium,Electronics,Wireless headphones with noise cancellation. Premium model – batch 845.,420
+847,ATX Power Supply 600W Advanced,Electronics,600W certified power supply. Advanced model – batch 846.,494
+848,USB Mouse Pro,Electronics,Wired USB mouse with high precision. Pro model – batch 847.,463
+849,Multifunction Printer Pro,Electronics,Printer with scanner and copier. Pro model – batch 848.,426
+850,Laptop i5 Compact,Electronics,Laptop with Intel i5 processor and SSD. Compact model – batch 849.,94
+851,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 850.,65
+852,Bluetooth Headphones Compact,Electronics,Wireless headphones with noise cancellation. Compact model – batch 851.,245
+853,Full HD Webcam Plus,Electronics,1080p webcam for video conferencing. Plus model – batch 852.,16
+854,Full HD Webcam Wireless,Electronics,1080p webcam for video conferencing. Wireless model – batch 853.,499
+855,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 854.,322
+856,Python Book Compact,Book,Learn Python from beginner to advanced. Compact model – batch 855.,112
+857,Laptop i5 Standard,Electronics,Laptop with Intel i5 processor and SSD. Standard model – batch 856.,308
+858,Blue Pen Plus,Stationery,Blue ballpoint pen. Plus model – batch 857.,406
+859,Gaming Mousepad Standard,Accessories,Large mousepad with non-slip base. Standard model – batch 858.,229
+860,ATX Power Supply 600W Pro,Electronics,600W certified power supply. Pro model – batch 859.,469
+861,Python Book USB-C,Book,Learn Python from beginner to advanced. USB-C model – batch 860.,24
+862,USB Mouse Compact,Electronics,Wired USB mouse with high precision. Compact model – batch 861.,280
+863,ATX Power Supply 600W Pro,Electronics,600W certified power supply. Pro model – batch 862.,47
+864,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 863.,201
+865,Full HD Webcam Pro,Electronics,1080p webcam for video conferencing. Pro model – batch 864.,289
+866,Blue Pen Premium,Stationery,Blue ballpoint pen. Premium model – batch 865.,300
+867,Mechanical Keyboard USB-C,Electronics,Mechanical keyboard with blue switches. USB-C model – batch 866.,274
+868,Algorithms Book Premium,Book,Introduction to algorithms and programming logic. Premium model – batch 867.,410
+869,Algorithms Book Standard,Book,Introduction to algorithms and programming logic. Standard model – batch 868.,321
+870,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 869.,155
+871,Algorithms Book Pro,Book,Introduction to algorithms and programming logic. Pro model – batch 870.,99
+872,Django Book Wireless,Book,Web development with Django. Wireless model – batch 871.,390
+873,Gaming Mousepad USB-C,Accessories,Large mousepad with non-slip base. USB-C model – batch 872.,213
+874,Gaming Mousepad Advanced,Accessories,Large mousepad with non-slip base. Advanced model – batch 873.,371
+875,USB Flash Drive 64GB Premium,Electronics,USB 3.0 flash drive with 64GB capacity. Premium model – batch 874.,328
+876,USB Flash Drive 64GB Advanced,Electronics,USB 3.0 flash drive with 64GB capacity. Advanced model – batch 875.,312
+877,Gaming Mousepad Pro,Accessories,Large mousepad with non-slip base. Pro model – batch 876.,198
+878,USB Mouse USB-C,Electronics,Wired USB mouse with high precision. USB-C model – batch 877.,166
+879,Bluetooth Headphones Premium,Electronics,Wireless headphones with noise cancellation. Premium model – batch 878.,439
+880,Laptop Stand Plus,Accessories,Adjustable ergonomic laptop stand. Plus model – batch 879.,275
+881,Bluetooth Headphones Plus,Electronics,Wireless headphones with noise cancellation. Plus model – batch 880.,412
+882,Django Book Compact,Book,Web development with Django. Compact model – batch 881.,140
+883,Laptop Backpack Plus,Accessories,Durable backpack for up to 15-inch laptops. Plus model – batch 882.,320
+884,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 883.,118
+885,Laptop i5 Plus,Electronics,Laptop with Intel i5 processor and SSD. Plus model – batch 884.,178
+886,Python Book Wireless,Book,Learn Python from beginner to advanced. Wireless model – batch 885.,30
+887,HDMI Cable USB-C,Accessories,High-speed HDMI 2.0 cable. USB-C model – batch 886.,292
+888,Algorithms Book Wireless,Book,Introduction to algorithms and programming logic. Wireless model – batch 887.,340
+889,Algorithms Book Advanced,Book,Introduction to algorithms and programming logic. Advanced model – batch 888.,240
+890,Mechanical Keyboard Pro,Electronics,Mechanical keyboard with blue switches. Pro model – batch 889.,294
+891,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 890.,154
+892,HDMI Cable Standard,Accessories,High-speed HDMI 2.0 cable. Standard model – batch 891.,269
+893,Blue Pen Standard,Stationery,Blue ballpoint pen. Standard model – batch 892.,202
+894,Laptop i5 USB-C,Electronics,Laptop with Intel i5 processor and SSD. USB-C model – batch 893.,111
+895,Blue Pen Pro,Stationery,Blue ballpoint pen. Pro model – batch 894.,487
+896,Multifunction Printer Premium,Electronics,Printer with scanner and copier. Premium model – batch 895.,259
+897,University Notebook Advanced,Stationery,Notebook with 200 pages. Advanced model – batch 896.,182
+898,Mechanical Keyboard Plus,Electronics,Mechanical keyboard with blue switches. Plus model – batch 897.,466
+899,USB Mouse Pro,Electronics,Wired USB mouse with high precision. Pro model – batch 898.,399
+900,24 Inch Monitor Compact,Electronics,Full HD monitor for work and gaming. Compact model – batch 899.,232
+901,Laptop Backpack USB-C,Accessories,Durable backpack for up to 15-inch laptops. USB-C model – batch 900.,379
+902,USB Mouse Plus,Electronics,Wired USB mouse with high precision. Plus model – batch 901.,324
+903,Full HD Webcam Pro,Electronics,1080p webcam for video conferencing. Pro model – batch 902.,31
+904,Laptop Backpack Pro,Accessories,Durable backpack for up to 15-inch laptops. Pro model – batch 903.,348
+905,Clean Code Book Compact,Book,Best practices for clean and maintainable code. Compact model – batch 904.,63
+906,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 905.,119
+907,External Hard Drive 1TB USB-C,Electronics,Portable 1TB external storage. USB-C model – batch 906.,105
+908,Gaming Mousepad USB-C,Accessories,Large mousepad with non-slip base. USB-C model – batch 907.,58
+909,Blue Pen Pro,Stationery,Blue ballpoint pen. Pro model – batch 908.,431
+910,HDMI Cable Advanced,Accessories,High-speed HDMI 2.0 cable. Advanced model – batch 909.,442
+911,Laptop Stand Wireless,Accessories,Adjustable ergonomic laptop stand. Wireless model – batch 910.,74
+912,Python Book Pro,Book,Learn Python from beginner to advanced. Pro model – batch 911.,149
+913,Algorithms Book Compact,Book,Introduction to algorithms and programming logic. Compact model – batch 912.,421
+914,Algorithms Book Pro,Book,Introduction to algorithms and programming logic. Pro model – batch 913.,85
+915,24 Inch Monitor Premium,Electronics,Full HD monitor for work and gaming. Premium model – batch 914.,403
+916,Django Book Premium,Book,Web development with Django. Premium model – batch 915.,469
+917,ATX Power Supply 600W Pro,Electronics,600W certified power supply. Pro model – batch 916.,422
+918,Laptop i5 Plus,Electronics,Laptop with Intel i5 processor and SSD. Plus model – batch 917.,51
+919,Django Book Compact,Book,Web development with Django. Compact model – batch 918.,282
+920,Laptop i5 Wireless,Electronics,Laptop with Intel i5 processor and SSD. Wireless model – batch 919.,205
+921,ATX Power Supply 600W Plus,Electronics,600W certified power supply. Plus model – batch 920.,157
+922,Bluetooth Headphones Compact,Electronics,Wireless headphones with noise cancellation. Compact model – batch 921.,226
+923,Multifunction Printer Advanced,Electronics,Printer with scanner and copier. Advanced model – batch 922.,122
+924,ATX Power Supply 600W Advanced,Electronics,600W certified power supply. Advanced model – batch 923.,301
+925,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 924.,177
+926,Gaming Mousepad USB-C,Accessories,Large mousepad with non-slip base. USB-C model – batch 925.,100
+927,HDMI Cable Advanced,Accessories,High-speed HDMI 2.0 cable. Advanced model – batch 926.,464
+928,Blue Pen USB-C,Stationery,Blue ballpoint pen. USB-C model – batch 927.,212
+929,Clean Code Book Premium,Book,Best practices for clean and maintainable code. Premium model – batch 928.,40
+930,Full HD Webcam Premium,Electronics,1080p webcam for video conferencing. Premium model – batch 929.,93
+931,Mechanical Keyboard Wireless,Electronics,Mechanical keyboard with blue switches. Wireless model – batch 930.,103
+932,Algorithms Book Plus,Book,Introduction to algorithms and programming logic. Plus model – batch 931.,448
+933,Algorithms Book Standard,Book,Introduction to algorithms and programming logic. Standard model – batch 932.,68
+934,Multifunction Printer Premium,Electronics,Printer with scanner and copier. Premium model – batch 933.,376
+935,Clean Code Book Plus,Book,Best practices for clean and maintainable code. Plus model – batch 934.,49
+936,Full HD Webcam Advanced,Electronics,1080p webcam for video conferencing. Advanced model – batch 935.,113
+937,Algorithms Book USB-C,Book,Introduction to algorithms and programming logic. USB-C model – batch 936.,71
+938,Gaming Mousepad USB-C,Accessories,Large mousepad with non-slip base. USB-C model – batch 937.,30
+939,HDMI Cable Wireless,Accessories,High-speed HDMI 2.0 cable. Wireless model – batch 938.,473
+940,Laptop Stand Wireless,Accessories,Adjustable ergonomic laptop stand. Wireless model – batch 939.,35
+941,Laptop i5 Premium,Electronics,Laptop with Intel i5 processor and SSD. Premium model – batch 940.,214
+942,Full HD Webcam USB-C,Electronics,1080p webcam for video conferencing. USB-C model – batch 941.,373
+943,24 Inch Monitor USB-C,Electronics,Full HD monitor for work and gaming. USB-C model – batch 942.,345
+944,Mechanical Keyboard Compact,Electronics,Mechanical keyboard with blue switches. Compact model – batch 943.,352
+945,Laptop Stand Premium,Accessories,Adjustable ergonomic laptop stand. Premium model – batch 944.,367
+946,University Notebook Wireless,Stationery,Notebook with 200 pages. Wireless model – batch 945.,361
+947,Gaming Mousepad USB-C,Accessories,Large mousepad with non-slip base. USB-C model – batch 946.,386
+948,Algorithms Book USB-C,Book,Introduction to algorithms and programming logic. USB-C model – batch 947.,110
+949,Gaming Mousepad Advanced,Accessories,Large mousepad with non-slip base. Advanced model – batch 948.,80
+950,University Notebook Plus,Stationery,Notebook with 200 pages. Plus model – batch 949.,331
+951,University Notebook Plus,Stationery,Notebook with 200 pages. Plus model – batch 950.,196
+952,Blue Pen USB-C,Stationery,Blue ballpoint pen. USB-C model – batch 951.,191
+953,Blue Pen Standard,Stationery,Blue ballpoint pen. Standard model – batch 952.,182
+954,Laptop i5 Plus,Electronics,Laptop with Intel i5 processor and SSD. Plus model – batch 953.,60
+955,Full HD Webcam Pro,Electronics,1080p webcam for video conferencing. Pro model – batch 954.,241
+956,Python Book Plus,Book,Learn Python from beginner to advanced. Plus model – batch 955.,421
+957,USB Mouse Premium,Electronics,Wired USB mouse with high precision. Premium model – batch 956.,49
+958,Clean Code Book Standard,Book,Best practices for clean and maintainable code. Standard model – batch 957.,183
+959,Laptop Backpack USB-C,Accessories,Durable backpack for up to 15-inch laptops. USB-C model – batch 958.,84
+960,ATX Power Supply 600W Standard,Electronics,600W certified power supply. Standard model – batch 959.,399
+961,Laptop Stand Compact,Accessories,Adjustable ergonomic laptop stand. Compact model – batch 960.,340
+962,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 961.,267
+963,Python Book Advanced,Book,Learn Python from beginner to advanced. Advanced model – batch 962.,403
+964,HDMI Cable Compact,Accessories,High-speed HDMI 2.0 cable. Compact model – batch 963.,109
+965,Django Book USB-C,Book,Web development with Django. USB-C model – batch 964.,103
+966,Python Book Wireless,Book,Learn Python from beginner to advanced. Wireless model – batch 965.,164
+967,24 Inch Monitor Standard,Electronics,Full HD monitor for work and gaming. Standard model – batch 966.,146
+968,Full HD Webcam Compact,Electronics,1080p webcam for video conferencing. Compact model – batch 967.,462
+969,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 968.,260
+970,Bluetooth Headphones Advanced,Electronics,Wireless headphones with noise cancellation. Advanced model – batch 969.,151
+971,Full HD Webcam Compact,Electronics,1080p webcam for video conferencing. Compact model – batch 970.,75
+972,Clean Code Book Compact,Book,Best practices for clean and maintainable code. Compact model – batch 971.,255
+973,ATX Power Supply 600W Compact,Electronics,600W certified power supply. Compact model – batch 972.,26
+974,Laptop Backpack Compact,Accessories,Durable backpack for up to 15-inch laptops. Compact model – batch 973.,101
+975,HDMI Cable Pro,Accessories,High-speed HDMI 2.0 cable. Pro model – batch 974.,444
+976,Mechanical Keyboard Premium,Electronics,Mechanical keyboard with blue switches. Premium model – batch 975.,19
+977,University Notebook Premium,Stationery,Notebook with 200 pages. Premium model – batch 976.,208
+978,Gaming Mousepad Compact,Accessories,Large mousepad with non-slip base. Compact model – batch 977.,16
+979,Gaming Mousepad Wireless,Accessories,Large mousepad with non-slip base. Wireless model – batch 978.,135
+980,24 Inch Monitor Wireless,Electronics,Full HD monitor for work and gaming. Wireless model – batch 979.,27
+981,Mechanical Keyboard Compact,Electronics,Mechanical keyboard with blue switches. Compact model – batch 980.,93
+982,Laptop Stand Wireless,Accessories,Adjustable ergonomic laptop stand. Wireless model – batch 981.,157
+983,Bluetooth Headphones Advanced,Electronics,Wireless headphones with noise cancellation. Advanced model – batch 982.,458
+984,Mechanical Keyboard Standard,Electronics,Mechanical keyboard with blue switches. Standard model – batch 983.,385
+985,ATX Power Supply 600W USB-C,Electronics,600W certified power supply. USB-C model – batch 984.,129
+986,Mechanical Keyboard Wireless,Electronics,Mechanical keyboard with blue switches. Wireless model – batch 985.,98
+987,Python Book Compact,Book,Learn Python from beginner to advanced. Compact model – batch 986.,398
+988,Python Book Standard,Book,Learn Python from beginner to advanced. Standard model – batch 987.,108
+989,University Notebook Pro,Stationery,Notebook with 200 pages. Pro model – batch 988.,65
+990,Gaming Mousepad Wireless,Accessories,Large mousepad with non-slip base. Wireless model – batch 989.,68
+991,Mechanical Keyboard Standard,Electronics,Mechanical keyboard with blue switches. Standard model – batch 990.,476
+992,Laptop Backpack Standard,Accessories,Durable backpack for up to 15-inch laptops. Standard model – batch 991.,361
+993,USB Flash Drive 64GB Pro,Electronics,USB 3.0 flash drive with 64GB capacity. Pro model – batch 992.,462
+994,Bluetooth Headphones Pro,Electronics,Wireless headphones with noise cancellation. Pro model – batch 993.,254
+995,ATX Power Supply 600W Wireless,Electronics,600W certified power supply. Wireless model – batch 994.,318
+996,Python Book Standard,Book,Learn Python from beginner to advanced. Standard model – batch 995.,124
+997,Laptop Backpack Premium,Accessories,Durable backpack for up to 15-inch laptops. Premium model – batch 996.,431
+998,Full HD Webcam Standard,Electronics,1080p webcam for video conferencing. Standard model – batch 997.,335
+999,Bluetooth Headphones Compact,Electronics,Wireless headphones with noise cancellation. Compact model – batch 998.,176
+1000,USB Flash Drive 64GB Advanced,Electronics,USB 3.0 flash drive with 64GB capacity. Advanced model – batch 999.,393
+1001,Clean Code Book Standard,Book,Best practices for clean and maintainable code. Standard model – batch 1000.,498
