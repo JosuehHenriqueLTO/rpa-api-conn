@@ -29,7 +29,7 @@ def export_products(headers):
 
     with open(EXPORT_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
-            f, fieldnames=["id", "name", "product_type", "description"]
+            f, fieldnames=["id", "name", "product_type", "description", "monthly_sales"]
         )
         writer.writeheader()
         writer.writerows(products)
@@ -56,11 +56,9 @@ def import_products(headers):
 def main():
     print("[RPA] Starting product workflow...")
 
-    # Authentication
     auth = JWTAuthClient()
     headers = auth.get_headers()
 
-    # Process execution
     export_products(headers)
     import_products(headers)
 

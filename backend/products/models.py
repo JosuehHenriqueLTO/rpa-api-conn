@@ -6,6 +6,7 @@ class Product(models.Model):
     name = models.CharField(max_length=255)
     product_type = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
+    monthly_sales = models.IntegerField(default=0)
 
     def __str__(self):
         return self.name
