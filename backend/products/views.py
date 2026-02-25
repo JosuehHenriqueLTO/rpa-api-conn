@@ -17,11 +17,12 @@ class RegisterView(APIView):
         serializer = ProductSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
-
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 class ProductBulkRegisterView(APIView):
+    permission_classes = [IsAuthenticated]
+
     def post(self, req):
         serializer = ProductSerializer(data=req.data, many=True)
         serializer.is_valid(raise_exception=True)
