@@ -8,7 +8,7 @@ from .views import (
 
 urlpatterns = [
     path("health/", HealthCheckView.as_view()),
-    path("register/", RegisterView.as_view()),
+    path("products/register/", RegisterView.as_view()),
     path("products/bulk/", ProductBulkRegisterView.as_view()),
-    path("export/", GetAllProductsView.as_view()),
+    path("products/export/", GetAllProductsView.as_view()),
 ]

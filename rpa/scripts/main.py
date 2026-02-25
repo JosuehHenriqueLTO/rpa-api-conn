@@ -59,8 +59,8 @@ def main():
     auth = JWTAuthClient()
     headers = auth.get_headers()
 
-    export_products(headers)
-    import_products(headers)
+    export_products(headers) # export actual database 
+    import_products(headers) # then import new data
 
     print("[RPA] Workflow completed successfully")
 
