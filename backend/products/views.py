@@ -38,7 +38,7 @@ class ProductBulkRegisterView(APIView):
 
 
 class GetAllProductsView(APIView):
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
 
     def get(self, req):
         products = Product.objects.all()

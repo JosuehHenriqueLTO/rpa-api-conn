@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BASE_URL = os.getenv("API_BASE_URL")
-TOKEN_URL = f"{BASE_URL}/api/token/"
-REFRESH_URL = f"{BASE_URL}/api/token/refresh/"
+TOKEN_URL = f"http://localhost:8000/api/login/"
+REFRESH_URL = f"http://localhost:8000/api/login/refresh/"
 
 
 class JWTAuthClient:
@@ -26,7 +26,7 @@ class JWTAuthClient:
                 resp = requests.post(
                     TOKEN_URL,
                     json={
-                        "username": self.username,
+                        "email": self.username,
                         "password": self.password,
                     },
                     timeout=5,
