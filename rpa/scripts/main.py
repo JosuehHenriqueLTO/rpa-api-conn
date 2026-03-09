@@ -7,7 +7,7 @@ from auth.jwt_auth import JWTAuthClient
 
 # Configuration
 BASE_URL = os.getenv("API_BASE_URL")
-EXPORT_URL = f"{BASE_URL}/api/export/"
+EXPORT_URL = f"{BASE_URL}/api/products/export/"
 IMPORT_URL = f"{BASE_URL}/api/products/bulk/"
 
 # Path setup

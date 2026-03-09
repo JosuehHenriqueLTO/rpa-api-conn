@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BASE_URL = os.getenv("API_BASE_URL")
-TOKEN_URL = f"http://localhost:8000/api/login/"
-REFRESH_URL = f"http://localhost:8000/api/login/refresh/"
+TOKEN_URL = f"{BASE_URL}/api/login/"
+REFRESH_URL = f"{BASE_URL}/api/login/refresh/"
 
 
 class JWTAuthClient:
@@ -45,7 +45,7 @@ class JWTAuthClient:
                 return
 
             except Exception as e:
-                print("[JWT] ERRO REAL:", repr(e))
+                print("[JWT] ERROR:", repr(e))
                 time.sleep(delay)
 
         raise RuntimeError("Backend was not available on time")

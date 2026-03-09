@@ -6,7 +6,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { loginAction } from "@/actions/auth";
 
-// Importações do shadcn/ui
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -21,7 +20,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Loader2, LockKeyhole } from "lucide-react";
 
-// Schema com validação de email real
 const loginSchema = z.object({
   email: z.string().email("Insira um e-mail válido"),
   password: z.string().min(8, "A senha deve ter no mínimo 8 caracteres"),
@@ -73,7 +71,6 @@ export default function LoginPage() {
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
               
-              {/* Campo de Email */}
               <FormField
                 control={form.control}
                 name="email"
@@ -93,7 +90,6 @@ export default function LoginPage() {
                 )}
               />
 
-              {/* Campo de Senha */}
               <FormField
                 control={form.control}
                 name="password"

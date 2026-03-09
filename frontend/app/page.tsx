@@ -8,46 +8,38 @@ import {
 } from "@/components/ui/card";
 import ProductsList from "@/components/ProductsList";
 import ProductRegisterForm from "@/components/ProductRegisterForm";
+import UserGreetings from "@/components/UserGreetings";
 
 export default async function Home() {
   const cookieStore = await cookies();
-  
-  // Pegando dados do usuário salvos no login
-  const userName = cookieStore.get("user_name")?.value || "Usuário";
-  const userEmail = cookieStore.get("user_email")?.value || "email@email.com";
+
+  const userName = cookieStore.get("name")?.value || "Hatsune Miku";
+  const userEmail = cookieStore.get("email")?.value || "hmiku@email.com";
+  // const userAuthority = cookieStore.get("email")?.value || "Employee";
 
   return (
     <main className="p-8 max-w-5xl mx-auto space-y-6">
-      {/* Header do Usuário */}
-      <Card>
-        <CardHeader>
-          <div className="flex justify-between items-center">
-            <div>
-              <CardTitle>Olá, {userName}!</CardTitle>
-              <CardDescription>{userEmail}</CardDescription>
-            </div>
-            <span className="px-3 py-1 bg-primary/10 text-primary text-xs font-bold rounded-full">
-              Funcionário
-            </span>
-          </div>
-        </CardHeader>
-      </Card>
+      <UserGreetings
+        userName={userName}
+        userEmail={userEmail}
+        // userAuthority="adsaas"
+      />
 
-      {/* Formulário de Registro */}
       <Card>
         <CardHeader>
-          <CardTitle>Registrar Novo Produto</CardTitle>
-          <CardDescription>Preencha os dados abaixo para enviar ao inventário.</CardDescription>
+          <CardTitle>Register New Product</CardTitle>
+          <CardDescription>
+            Fill in the details below to add it to the inventory.
+          </CardDescription>
         </CardHeader>
         <CardContent>
           <ProductRegisterForm />
         </CardContent>
       </Card>
 
-      {/* Lista de Produtos */}
       <Card>
         <CardHeader>
-          <CardTitle>Produtos Disponíveis</CardTitle>
+          <CardTitle>Available Products</CardTitle>
         </CardHeader>
         <CardContent>
           <ProductsList />

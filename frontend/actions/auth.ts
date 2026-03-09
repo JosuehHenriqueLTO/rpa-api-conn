@@ -1,10 +1,14 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
+// Use 'backend' (service name in docker-compose) for server-to-server communication
+const BASE_URL = process.env.BACKEND_URL || "http://backend:8000";
+
 export async function loginAction(formData: any) {
-  const response = await fetch("http://localhost:8000/api/login/", {
+  const response = await fetch(`${BASE_URL}/api/login/`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(formData),
@@ -24,7 +28,6 @@ export async function loginAction(formData: any) {
     path: "/",
     maxAge: 60 * 60 * 24,
   });
-  //   cookieStore.set("user_name", data.user.name, { httpOnly: false });
 
   redirect("/");
 }
@@ -33,19 +36,16 @@ export async function getProducts() {
   const cookieStore = await cookies();
   const token = cookieStore.get("auth_token")?.value;
 
-  // Se não houver token, você pode redirecionar ou retornar erro
-  if (!token) {
-    return { error: "Unauthenticated" };
-  }
+  if (!token) return { error: "Unauthenticated" };
 
   try {
-    const response = await fetch("http://localhost:8000/api/products/export/", {
+    const response = await fetch(`${BASE_URL}/api/products/export/`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`, // Padrão JWT que o Django espera
+        Authorization: `Bearer ${token}`,
       },
-      next: { revalidate: 60 }, // Opcional: faz cache por 60 segundos
+      next: { revalidate: 60 },
     });
 
     if (!response.ok) {
@@ -67,7 +67,7 @@ export async function registerProduct(formData: any) {
   if (!token) return { error: "Não autenticado" };
 
   try {
-    const response = await fetch("http://localhost:8000/api/products/bulk/", {
+    const response = await fetch(`${BASE_URL}/api/products/bulk/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -82,8 +82,41 @@ export async function registerProduct(formData: any) {
       return { error: data.detail || "Erro de validação no cadastro." };
     }
 
+    // Revalidate the path so the list updates after registration
+    revalidatePath("/");
     return { success: true, message: data.message };
   } catch (error) {
     return { error: "Falha na conexão." };
   }
+}
+
+export async function deleteProduct(id: string | number) {
+  const cookieStore = await cookies();
+  const token = cookieStore.get("auth_token")?.value;
+
+  if (!token) return { error: "Não autenticado" };
+
+  try {
+    const response = await fetch(`${BASE_URL}/api/products/${id}/delete/`, {
+      method: "DELETE",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    if (!response.ok) {
+      return { error: "Erro ao deletar o produto no servidor." };
+    }
+
+    revalidatePath("/");
+    return { success: true };
+  } catch (error) {
+    return { error: "Falha na conexão com o backend." };
+  }
+}
+
+export async function logout() {
+  const cookieStore = await cookies();
+  cookieStore.delete("auth_token");
+  redirect("/login");
 }
