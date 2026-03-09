@@ -4,6 +4,7 @@ from rest_framework import status
 from .serializers import ProductSerializer
 from .models import Product
 from rest_framework.permissions import IsAuthenticated
+from django.shortcuts import get_object_or_404
 
 
 # Create your views here.
@@ -13,8 +14,8 @@ class HealthCheckView(APIView):
 
 
 class RegisterView(APIView):
-    def post(self, request):
-        serializer = ProductSerializer(data=request.data)
+    def post(self, req):
+        serializer = ProductSerializer(data=req.data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
         return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -38,9 +39,22 @@ class ProductBulkRegisterView(APIView):
 
 
 class GetAllProductsView(APIView):
-    # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
 
     def get(self, req):
         products = Product.objects.all()
         serializer = ProductSerializer(products, many=True)
         return Response(serializer.data)
+
+
+class DeleteProductView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def delete(self, req, pk):
+        product = get_object_or_404(Product, id=pk)
+        product.delete()
+        return Response(
+            {"message": "Product has been deleted successfully!"},
+            status=status.HTTP_204_NO_CONTENT,
+        )
+
