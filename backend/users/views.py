@@ -26,9 +26,7 @@ class RegisterView(APIView):
 class ViewProtect(APIView):
     permission_classes = [IsAuthenticated]
 
-    def get(req):
+    def get(self, req):
         user = req.user
-
         content = {"id": user.id, "name": user.name, "email": user.email}
-
         return Response(content, status=status.HTTP_200_OK)
