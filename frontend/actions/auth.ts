@@ -4,7 +4,6 @@ import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
-// Use 'backend' (service name in docker-compose) for server-to-server communication
 const BASE_URL = process.env.BACKEND_URL || "http://backend:8000";
 
 export async function loginAction(formData: any) {
@@ -72,13 +71,13 @@ export async function getProducts() {
 
     if (!response.ok) {
       const errorData = await response.json();
-      return { error: errorData.detail || "Erro ao buscar produtos" };
+      return { error: errorData.detail || "Error" };
     }
 
     return await response.json();
   } catch (error) {
-    console.error("Erro na busca de produtos:", error);
-    return { error: "Erro de conexão com o servidor" };
+    console.error("Cannot search products:", error);
+    return { error: "Cannot contact server" };
   }
 }
 
@@ -86,7 +85,7 @@ export async function registerProduct(formData: any) {
   const cookieStore = await cookies();
   const token = cookieStore.get("auth_token")?.value;
 
-  if (!token) return { error: "Não autenticado" };
+  if (!token) return { error: "Unauthenticated" };
 
   try {
     const response = await fetch(`${BASE_URL}/api/products/bulk/`, {
@@ -101,14 +100,13 @@ export async function registerProduct(formData: any) {
     const data = await response.json();
 
     if (!response.ok) {
-      return { error: data.detail || "Erro de validação no cadastro." };
+      return { error: data.detail || "Unvalidated." };
     }
 
-    // Revalidate the path so the list updates after registration
     revalidatePath("/");
     return { success: true, message: data.message };
   } catch (error) {
-    return { error: "Falha na conexão." };
+    return { error: "Unconnected" };
   }
 }
 
@@ -116,7 +114,7 @@ export async function deleteProduct(id: string | number) {
   const cookieStore = await cookies();
   const token = cookieStore.get("auth_token")?.value;
 
-  if (!token) return { error: "Não autenticado" };
+  if (!token) return { error: "Unauthenticated" };
 
   try {
     const response = await fetch(`${BASE_URL}/api/products/${id}/delete/`, {
@@ -127,13 +125,13 @@ export async function deleteProduct(id: string | number) {
     });
 
     if (!response.ok) {
-      return { error: "Erro ao deletar o produto no servidor." };
+      return { error: "Cannot delete product." };
     }
 
     revalidatePath("/");
     return { success: true };
   } catch (error) {
-    return { error: "Falha na conexão com o backend." };
+    return { error: "Cannot connect backend" };
   }
 }
 

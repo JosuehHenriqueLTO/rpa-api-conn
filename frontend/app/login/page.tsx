@@ -21,8 +21,8 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Loader2, LockKeyhole } from "lucide-react";
 
 const loginSchema = z.object({
-  email: z.string().email("Insira um e-mail válido"),
-  password: z.string().min(8, "A senha deve ter no mínimo 8 caracteres"),
+  email: z.string().email(""),
+  password: z.string().min(8, ""),
 });
 
 type LoginFormValues = z.infer<typeof loginSchema>;
@@ -49,7 +49,7 @@ export default function LoginPage() {
         setError(result.error);
       }
     } catch (e) {
-      setError("Ocorreu um erro inesperado. Tente novamente.");
+      setError("");
     } finally {
       setIsLoading(false);
     }
