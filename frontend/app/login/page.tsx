@@ -64,7 +64,7 @@ export default function LoginPage() {
           </div>
           <CardTitle className="text-2xl font-bold">Bem-vindo</CardTitle>
           <CardDescription>
-            Entre com suas credenciais do Django
+            Log in using your credentials
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -95,7 +95,7 @@ export default function LoginPage() {
                 name="password"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Senha</FormLabel>
+                    <FormLabel>Password</FormLabel>
                     <FormControl>
                       <Input 
                         placeholder="••••••••" 
@@ -109,7 +109,6 @@ export default function LoginPage() {
                 )}
               />
 
-              {/* Alerta de Erro do Backend */}
               {error && (
                 <Alert variant="destructive" className="py-2">
                   <AlertDescription className="text-xs">
@@ -126,7 +125,7 @@ export default function LoginPage() {
                 {isLoading ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    Autenticando...
+                    Authenticating...
                   </>
                 ) : (
                   "Entrar"

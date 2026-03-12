@@ -5,12 +5,10 @@ import pandas as pd
 from pathlib import Path
 from auth.jwt_auth import JWTAuthClient
 
-# Configuration
 BASE_URL = os.getenv("API_BASE_URL")
 EXPORT_URL = f"{BASE_URL}/api/products/export/"
 IMPORT_URL = f"{BASE_URL}/api/products/bulk/"
 
-# Path setup
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
@@ -59,8 +57,8 @@ def main():
     auth = JWTAuthClient()
     headers = auth.get_headers()
 
-    export_products(headers) # export actual database 
-    import_products(headers) # then import new data
+    export_products(headers)
+    import_products(headers)
 
     print("[RPA] Workflow completed successfully")
 

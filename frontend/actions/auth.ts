@@ -32,6 +32,28 @@ export async function loginAction(formData: any) {
   redirect("/");
 }
 
+export async function getUserInfo() {
+  const cookieStore = await cookies();
+  const token = cookieStore.get("auth_token")?.value;
+
+  if (!token) return { error: "No token found" };
+
+  try {
+    const response = await fetch(`${BASE_URL}/api/users/user/info/`, {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    if (!response.ok) return { error: "Failed to fetch user" };
+
+    return await response.json();
+  } catch (e) {
+    return { error: "Connection error" };
+  }
+}
+
 export async function getProducts() {
   const cookieStore = await cookies();
   const token = cookieStore.get("auth_token")?.value;
