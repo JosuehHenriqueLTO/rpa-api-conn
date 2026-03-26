@@ -5,6 +5,7 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
 const BASE_URL = process.env.BACKEND_URL || "http://backend:8000";
+// const BASE_URL = process.env.BACKEND_URL || "http://localhost:8000";
 
 export async function loginAction(formData: any) {
   const response = await fetch(`${BASE_URL}/api/login/`, {
@@ -43,6 +44,7 @@ export async function getUserInfo() {
       headers: {
         Authorization: `Bearer ${token}`,
       },
+      cache: "no-store",
     });
 
     if (!response.ok) return { error: "Failed to fetch user" };

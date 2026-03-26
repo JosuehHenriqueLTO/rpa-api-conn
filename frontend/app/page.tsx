@@ -16,6 +16,7 @@ export default async function Home() {
   if (user.error) {
     return <div>Error: {user.error}</div>;
   }
+  
 
   // const userAuthority = cookieStore.get("email")?.value || "Employee";
 
@@ -24,6 +25,7 @@ export default async function Home() {
       <UserGreetings
         name={user.name}
         email={user.email}
+        avatar={`http://localhost:8000${user.avatar}`}
         // userAuthority="adsaas"
       />
 

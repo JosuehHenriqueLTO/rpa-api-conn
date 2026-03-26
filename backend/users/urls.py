@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import RegisterView, ViewProtect
+from .views import RegisterView, ViewProtect, DeleteUserView
 
 urlpatterns = [
     # path("health/", HealthCheckView.as_view()),
@@ -8,4 +8,5 @@ urlpatterns = [
     # path("export/", GetAllProductsView.as_view()),
     path("users/register/", RegisterView.as_view()),
     path("users/user/info/", ViewProtect.as_view()),
+    path("users/<int:pk>/delete/", DeleteUserView.as_view()),
 ]

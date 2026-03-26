@@ -8,12 +8,14 @@ import LogoutButton from "./LogoutButton";
 interface UserGreetingsProps {
   name?: string;
   email?: string;
+  avatar?: string
   // userAuthority?: string;
 }
 
 const UserGreetings = ({
   name = "User",
   email,
+  avatar,
   // userAuthority,
 }: UserGreetingsProps) => {
   const hour = new Date().getHours();
@@ -70,7 +72,11 @@ const UserGreetings = ({
       <CardHeader className="flex flex-row items-start justify-between gap-4 py-6">
         <div className="flex flex-row items-center gap-4">
           <Avatar className="h-14 w-14 border-2 border-background shadow-sm">
-            <AvatarImage src="https://i.pinimg.com/736x/7a/00/1e/7a001e40c5dee539739eb88c7c1d7ecc.jpg" alt={name} />
+            <AvatarImage
+              // src="https://i.pinimg.com/736x/7a/00/1e/7a001e40c5dee539739eb88c7c1d7ecc.jpg"
+              src={avatar}
+              alt={name}
+            />
             <AvatarFallback className="bg-primary/10 text-primary">
               {name.substring(0, 2).toUpperCase()}
             </AvatarFallback>
